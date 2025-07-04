@@ -1,0 +1,4962 @@
+[
+    {
+        "page_number": 1,
+        "section_number": 1,
+        "content": "NCBI Bookshelf. A service of the National Library of Medicine, National Institutes of Health.",
+        "metadata": {
+            "section_title": "NCBI Bookshelf. A service of the National Library of Medicine, National Institutes of Health."
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 2,
+        "content": "StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan-.",
+        "metadata": {
+            "section_title": "StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan-."
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 3,
+        "content": "Azithromycin",
+        "metadata": {
+            "section_title": "Azithromycin"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 4,
+        "content": "Authors",
+        "metadata": {
+            "section_title": "Authors"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 5,
+        "content": "Zachary Sandman; Omar A. Iqbal.",
+        "metadata": {
+            "section_title": "Zachary Sandman; Omar A. Iqbal."
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 6,
+        "content": "Affiliations",
+        "metadata": {
+            "section_title": "Affiliations"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 7,
+        "content": "Touro College of Osteopathic Medicine",
+        "metadata": {
+            "section_title": " Touro College of Osteopathic Medicine"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 8,
+        "content": "University of Medicine & Health Sciences",
+        "metadata": {
+            "section_title": " University of Medicine & Health Sciences"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 9,
+        "content": "Last Update: November 9, 2024.",
+        "metadata": {
+            "section_title": "Last Update: November 9, 2024."
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 10,
+        "content": "Continuing Education Activity",
+        "metadata": {
+            "section_title": "Continuing Education Activity"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 11,
+        "content": "Azithromycin is a macrolide primarily prescribed to treat bacterial infections, including community-acquired",
+        "metadata": {
+            "section_title": "Azithromycin is a macrolide primarily prescribed to treat bacterial infections, including community-acquired"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 12,
+        "content": "pneumonia and sexually transmitted infections. This activity addresses the indications, mechanism of action, and",
+        "metadata": {
+            "section_title": "pneumonia and sexually transmitted infections. This activity addresses the indications, mechanism of action, and"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 13,
+        "content": "contraindications of azithromycin, emphasizing critical factors such as administration, adverse event profile, toxicity,",
+        "metadata": {
+            "section_title": "contraindications of azithromycin, emphasizing critical factors such as administration, adverse event profile, toxicity,"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 14,
+        "content": "monitoring, and drug interactions. This review provides healthcare professionals with essential insights for optimizing",
+        "metadata": {
+            "section_title": "monitoring, and drug interactions. This review provides healthcare professionals with essential insights for optimizing"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 15,
+        "content": "azithromycin therapy by tailoring treatment to patient-specific needs, minimizing adverse effects, and ensuring safety",
+        "metadata": {
+            "section_title": "azithromycin therapy by tailoring treatment to patient-specific needs, minimizing adverse effects, and ensuring safety"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 16,
+        "content": "in diverse populations.",
+        "metadata": {
+            "section_title": "in diverse populations."
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 17,
+        "content": "A deeper understanding of azithromycin’s pharmacological properties enables informed prescribing decisions and",
+        "metadata": {
+            "section_title": "A deeper understanding of azithromycin’s pharmacological properties enables informed prescribing decisions and"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 18,
+        "content": "appropriate dosing strategies. This program underscores the role of interprofessional collaboration, clarifying roles,",
+        "metadata": {
+            "section_title": "appropriate dosing strategies. This program underscores the role of interprofessional collaboration, clarifying roles,"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 19,
+        "content": "and enhancing coordination within the healthcare team to support effective management of azithromycin therapy for",
+        "metadata": {
+            "section_title": "and enhancing coordination within the healthcare team to support effective management of azithromycin therapy for"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 20,
+        "content": "bacterial infections. By equipping healthcare professionals with evidence-based knowledge, this activity fosters",
+        "metadata": {
+            "section_title": "bacterial infections. By equipping healthcare professionals with evidence-based knowledge, this activity fosters"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 21,
+        "content": "improved patient outcomes through personalized and effective treatment plans, advancing standards in care related to",
+        "metadata": {
+            "section_title": "improved patient outcomes through personalized and effective treatment plans, advancing standards in care related to"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 22,
+        "content": "azithromycin administration.",
+        "metadata": {
+            "section_title": "azithromycin administration."
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 23,
+        "content": "Objectives:",
+        "metadata": {
+            "section_title": "Objectives:"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 24,
+        "content": "Identify the mechanism of action and appropriate administration methods of azithromycin.",
+        "metadata": {
+            "section_title": "Identify the mechanism of action and appropriate administration methods of azithromycin."
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 25,
+        "content": "Assess the adverse effects and contraindications associated with azithromycin therapy.",
+        "metadata": {
+            "section_title": "Assess the adverse effects and contraindications associated with azithromycin therapy."
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 26,
+        "content": "Evaluate the appropriate monitoring strategies for patients receiving azithromycin therapy.",
+        "metadata": {
+            "section_title": "Evaluate the appropriate monitoring strategies for patients receiving azithromycin therapy."
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 27,
+        "content": "Implement effective collaboration and communication among interprofessional team members to improve",
+        "metadata": {
+            "section_title": "Implement effective collaboration and communication among interprofessional team members to improve"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 28,
+        "content": "outcomes and treatment efficacy for patients who might benefit from azithromycin therapy.",
+        "metadata": {
+            "section_title": "outcomes and treatment efficacy for patients who might benefit from azithromycin therapy."
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 29,
+        "content": "Access free multiple choice questions on this topic.",
+        "metadata": {
+            "section_title": "Access free multiple choice questions on this topic."
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 30,
+        "content": "Indications",
+        "metadata": {
+            "section_title": "Indications"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 31,
+        "content": "Azithromycin is a broad-spectrum macrolide antimicrobial and one of the most frequently prescribed antimicrobial",
+        "metadata": {
+            "section_title": "Azithromycin is a broad-spectrum macrolide antimicrobial and one of the most frequently prescribed antimicrobial"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 32,
+        "content": "drugs in the United States. Azithromycin is an erythromycin derivative with greatly enhanced activity against gram-",
+        "metadata": {
+            "section_title": "drugs in the United States. Azithromycin is an erythromycin derivative with greatly enhanced activity against gram-"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 33,
+        "content": "negative bacteria (including Enterobacteriaceae) that also provides coverage against many gram-positive organisms.",
+        "metadata": {
+            "section_title": "negative bacteria (including Enterobacteriaceae) that also provides coverage against many gram-positive organisms."
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 34,
+        "content": "[1][2] As an inhibitor of bacterial protein synthesis, azithromycin is effective against many \"atypical\" bacteria such as",
+        "metadata": {
+            "section_title": "[1][2] As an inhibitor of bacterial protein synthesis, azithromycin is effective against many \"atypical\" bacteria such as"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 35,
+        "content": "chlamydiae (eg, Chlamydia trachomatis and Chlamydophila psittaci), legionella (eg, Legionella pneumophila),",
+        "metadata": {
+            "section_title": "chlamydiae (eg, Chlamydia trachomatis and Chlamydophila psittaci), legionella (eg, Legionella pneumophila),"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 36,
+        "content": "mycoplasma (eg, Mycoplasma pneumoniae), and mycobacteria (eg, Mycobacterium avium).[3]",
+        "metadata": {
+            "section_title": "mycoplasma (eg, Mycoplasma pneumoniae), and mycobacteria (eg, Mycobacterium avium).[3]"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 37,
+        "content": "FDA-Approved Indications1 2",
+        "metadata": {
+            "section_title": "FDA-Approved Indications1 2"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 38,
+        "content": "1",
+        "metadata": {
+            "section_title": "1"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 39,
+        "content": "26/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf",
+        "metadata": {
+            "section_title": "26/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf"
+        }
+    },
+    {
+        "page_number": 1,
+        "section_number": 40,
+        "content": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 1/13",
+        "metadata": {
+            "section_title": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 1/13"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 1,
+        "content": "Community-acquired pneumonia (CAP) caused by Streptococcus pneumoniae, Haemophilus influenzae, and",
+        "metadata": {
+            "section_title": "Community-acquired pneumonia (CAP) caused by Streptococcus pneumoniae, Haemophilus influenzae, and"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 2,
+        "content": "Moraxella catarrhalis [4]",
+        "metadata": {
+            "section_title": "Moraxella catarrhalis [4]  "
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 3,
+        "content": "Other upper respiratory infectious processes, including acute otitis media and acute exacerbation of chronic",
+        "metadata": {
+            "section_title": "Other upper respiratory infectious processes, including acute otitis media and acute exacerbation of chronic"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 4,
+        "content": "obstructive pulmonary disease (COPD) [5]",
+        "metadata": {
+            "section_title": "obstructive pulmonary disease (COPD) [5]"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 5,
+        "content": "Pharyngitis caused by Streptococcus pyogenes (as an alternative to a β-lactam agent)",
+        "metadata": {
+            "section_title": "Pharyngitis caused by Streptococcus pyogenes (as an alternative to a β-lactam agent)"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 6,
+        "content": "Skin infection due to S pyogenes, Streptococcus agalactiae, or Staphylococcus aureus",
+        "metadata": {
+            "section_title": "Skin infection due to S pyogenes, Streptococcus agalactiae, or Staphylococcus aureus "
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 7,
+        "content": "M avium complex (MAC) infection treatment and prophylaxis for patients with advanced AIDS",
+        "metadata": {
+            "section_title": "M avium complex (MAC) infection treatment and prophylaxis for patients with advanced AIDS"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 8,
+        "content": "Sexually transmitted infections, including chlamydia, gonococcal disease, chancroid (Haemophilus ducreyi),",
+        "metadata": {
+            "section_title": "Sexually transmitted infections, including chlamydia, gonococcal disease, chancroid (Haemophilus ducreyi),"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 9,
+        "content": "and Mycoplasma genitalium [6][7][8][9][10]",
+        "metadata": {
+            "section_title": "and Mycoplasma genitalium [6][7][8][9][10]"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 10,
+        "content": "Urethritis and cervicitis caused by C trachomatis or Neisseria gonorrhoeae. However, the CDC guidelines",
+        "metadata": {
+            "section_title": "Urethritis and cervicitis caused by C trachomatis or Neisseria gonorrhoeae. However, the CDC guidelines"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 11,
+        "content": "recommended azithromycin only in combination with gentamicin for uncomplicated gonococcal infections of",
+        "metadata": {
+            "section_title": "recommended azithromycin only in combination with gentamicin for uncomplicated gonococcal infections of"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 12,
+        "content": "the cervix or urethra, particularly for patients with a cephalosporin allergy.[11]",
+        "metadata": {
+            "section_title": "the cervix or urethra, particularly for patients with a cephalosporin allergy.[11]"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 13,
+        "content": "Off-Label Uses",
+        "metadata": {
+            "section_title": "Off-Label Uses"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 14,
+        "content": "Salmonella typhi infection (enteric fever) [12]",
+        "metadata": {
+            "section_title": "Salmonella typhi infection (enteric fever) [12]"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 15,
+        "content": "Long-term prophylaxis for bronchiolitis obliterans (BO) in patients who have undergone lung",
+        "metadata": {
+            "section_title": "Long-term prophylaxis for bronchiolitis obliterans (BO) in patients who have undergone lung"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 16,
+        "content": "transplantation [13]",
+        "metadata": {
+            "section_title": "transplantation [13]"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 17,
+        "content": "One study examined whether adding azithromycin to standard therapy could induce remission in patients with",
+        "metadata": {
+            "section_title": "One study examined whether adding azithromycin to standard therapy could induce remission in patients with"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 18,
+        "content": "persistent uncontrolled asthma compared to placebo. Data from 335 participants over 12 months included increased",
+        "metadata": {
+            "section_title": "persistent uncontrolled asthma compared to placebo. Data from 335 participants over 12 months included increased"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 19,
+        "content": "rates of clinical remission and remission with lung function criteria, with some achieving complete remission.",
+        "metadata": {
+            "section_title": "rates of clinical remission and remission with lung function criteria, with some achieving complete remission."
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 20,
+        "content": "Factors such as better asthma-related quality of life predicted clinical remission. These findings suggest that",
+        "metadata": {
+            "section_title": "Factors such as better asthma-related quality of life predicted clinical remission. These findings suggest that"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 21,
+        "content": "azithromycin may help achieve asthma remission, highlighting its therapeutic potential. However, antimicrobial",
+        "metadata": {
+            "section_title": "azithromycin may help achieve asthma remission, highlighting its therapeutic potential. However, antimicrobial"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 22,
+        "content": "resistance should be considered.[14]",
+        "metadata": {
+            "section_title": "resistance should be considered.[14]"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 23,
+        "content": "A systematic review and meta-analysis suggest that azithromycin may reduce hospitalization duration in children with",
+        "metadata": {
+            "section_title": "A systematic review and meta-analysis suggest that azithromycin may reduce hospitalization duration in children with"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 24,
+        "content": "acute bronchiolitis who are younger than 2 years, but it does not prevent the recurrence of wheezing. Further studies",
+        "metadata": {
+            "section_title": "acute bronchiolitis who are younger than 2 years, but it does not prevent the recurrence of wheezing. Further studies"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 25,
+        "content": "with larger sample sizes and clinically relevant outcomes are necessary.[15]",
+        "metadata": {
+            "section_title": "with larger sample sizes and clinically relevant outcomes are necessary.[15]"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 26,
+        "content": "For patients 6 years and older with cystic fibrosis and persistent Pseudomonas aeruginosa infection, the Cystic",
+        "metadata": {
+            "section_title": "For patients 6 years and older with cystic fibrosis and persistent Pseudomonas aeruginosa infection, the Cystic"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 27,
+        "content": "Fibrosis Foundation recommends the long-term administration of azithromycin to improve lung function and reduce",
+        "metadata": {
+            "section_title": "Fibrosis Foundation recommends the long-term administration of azithromycin to improve lung function and reduce"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 28,
+        "content": "exacerbations. However, due to potential resistance in patients with nontuberculous mycobacterial infections,",
+        "metadata": {
+            "section_title": "exacerbations. However, due to potential resistance in patients with nontuberculous mycobacterial infections,"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 29,
+        "content": "screening for nontuberculous mycobacteria is advised before initiating azithromycin and every 6 to 12 months",
+        "metadata": {
+            "section_title": "screening for nontuberculous mycobacteria is advised before initiating azithromycin and every 6 to 12 months"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 30,
+        "content": "thereafter. The committee has determined the benefit of long-term azithromycin therapy to be high for patients with P",
+        "metadata": {
+            "section_title": "thereafter. The committee has determined the benefit of long-term azithromycin therapy to be high for patients with P"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 31,
+        "content": "aeruginosa infection and moderate in those without, with the estimated net benefit deemed small. Meta-analyses",
+        "metadata": {
+            "section_title": "aeruginosa infection and moderate in those without, with the estimated net benefit deemed small. Meta-analyses"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 32,
+        "content": "indicates that azithromycin therapy for patients with cystic fibrosis yields modest improvements in respiratory",
+        "metadata": {
+            "section_title": "indicates that azithromycin therapy for patients with cystic fibrosis yields modest improvements in respiratory"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 33,
+        "content": "function and reduces exacerbation risk, though long-term efficacy is uncertain. Concerns about macrolide resistance",
+        "metadata": {
+            "section_title": "function and reduces exacerbation risk, though long-term efficacy is uncertain. Concerns about macrolide resistance"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 34,
+        "content": "highlight the need for further research, especially for patients receiving cystic fibrosis transmembrane conductance",
+        "metadata": {
+            "section_title": "highlight the need for further research, especially for patients receiving cystic fibrosis transmembrane conductance"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 35,
+        "content": "regulator modulator therapies.[16][17]",
+        "metadata": {
+            "section_title": "regulator modulator therapies.[16][17]"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 36,
+        "content": "Azithromycin also has efficacy against some protozoal organisms such as Babesia spp. (eg, B microti), Plasmodium",
+        "metadata": {
+            "section_title": "Azithromycin also has efficacy against some protozoal organisms such as Babesia spp. (eg, B microti), Plasmodium"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 37,
+        "content": "spp. (eg, malaria), and Toxoplasma gondii. This medication is sometimes used off-label for the treatment of these",
+        "metadata": {
+            "section_title": "spp. (eg, malaria), and Toxoplasma gondii. This medication is sometimes used off-label for the treatment of these"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 38,
+        "content": "parasitic diseases in combination with antiprotozoal drugs such as atovaquone.[18][19][20] According to the",
+        "metadata": {
+            "section_title": "parasitic diseases in combination with antiprotozoal drugs such as atovaquone.[18][19][20] According to the"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 39,
+        "content": "Infectious Diseases Society of America (IDSA), atovaquone combined with azithromycin is the preferred",
+        "metadata": {
+            "section_title": "Infectious Diseases Society of America (IDSA), atovaquone combined with azithromycin is the preferred"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 40,
+        "content": "antimicrobial regimen for babesiosis.[21][22]6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf",
+        "metadata": {
+            "section_title": "antimicrobial regimen for babesiosis.[21][22]6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf"
+        }
+    },
+    {
+        "page_number": 2,
+        "section_number": 41,
+        "content": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 2/13",
+        "metadata": {
+            "section_title": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 2/13"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 1,
+        "content": "Azithromycin's role in managing viral infections, including respiratory syncytial virus and SARS-CoV-2 has not",
+        "metadata": {
+            "section_title": "Azithromycin's role in managing viral infections, including respiratory syncytial virus and SARS-CoV-2 has not"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 2,
+        "content": "been determined.[23][24][25][26][27]",
+        "metadata": {
+            "section_title": "been determined.[23][24][25][26][27]"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 3,
+        "content": "Mechanism of Action",
+        "metadata": {
+            "section_title": "Mechanism of Action"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 4,
+        "content": "Like other macrolide antimicrobials, azithromycin binds to the 23S portion of the 50S bacterial ribosomal",
+        "metadata": {
+            "section_title": "Like other macrolide antimicrobials, azithromycin binds to the 23S portion of the 50S bacterial ribosomal"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 5,
+        "content": "subunit. The drug inhibits bacterial protein synthesis by preventing the transit of aminoacyl-tRNA and the growing",
+        "metadata": {
+            "section_title": "subunit. The drug inhibits bacterial protein synthesis by preventing the transit of aminoacyl-tRNA and the growing"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 6,
+        "content": "protein through the ribosome. Azithromycin is less prone to disassociation from the gram-negative ribosome than",
+        "metadata": {
+            "section_title": "protein through the ribosome. Azithromycin is less prone to disassociation from the gram-negative ribosome than"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 7,
+        "content": "erythromycin, which may explain its greater efficacy against gram-negative pathogens.[28] Like other macrolides and",
+        "metadata": {
+            "section_title": "erythromycin, which may explain its greater efficacy against gram-negative pathogens.[28] Like other macrolides and"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 8,
+        "content": "protein-synthesis inhibitors, azithromycin is primarily bacteriostatic, inhibiting bacterial growth rather than directly",
+        "metadata": {
+            "section_title": "protein-synthesis inhibitors, azithromycin is primarily bacteriostatic, inhibiting bacterial growth rather than directly"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 9,
+        "content": "killing organisms. However, higher doses of azithromycin have a bactericidal effect against certain bacteria, such as",
+        "metadata": {
+            "section_title": "killing organisms. However, higher doses of azithromycin have a bactericidal effect against certain bacteria, such as"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 10,
+        "content": "streptococci and H influenzae.[29][30]",
+        "metadata": {
+            "section_title": "streptococci and H influenzae.[29][30]"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 11,
+        "content": "Azithromycin rapidly moves from the bloodstream into tissues and, once there, readily crosses cellular",
+        "metadata": {
+            "section_title": "Azithromycin rapidly moves from the bloodstream into tissues and, once there, readily crosses cellular"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 12,
+        "content": "membranes, making it effective against intracellular pathogens.[28][30] In nonbacterial organisms (ie, apicomplexan",
+        "metadata": {
+            "section_title": "membranes, making it effective against intracellular pathogens.[28][30] In nonbacterial organisms (ie, apicomplexan"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 13,
+        "content": "parasites such as Babesia spp., Plasmodium spp., and Toxoplasma spp.), azithromycin inhibits the 50S ribosome",
+        "metadata": {
+            "section_title": "parasites such as Babesia spp., Plasmodium spp., and Toxoplasma spp.), azithromycin inhibits the 50S ribosome"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 14,
+        "content": "found in the parasite apicoplast, an endosymbiosis-derived organelle with bacteria-like protein-synthesis machinery",
+        "metadata": {
+            "section_title": "found in the parasite apicoplast, an endosymbiosis-derived organelle with bacteria-like protein-synthesis machinery"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 15,
+        "content": "that performs critical metabolic functions.[31][32]",
+        "metadata": {
+            "section_title": "that performs critical metabolic functions.[31][32]"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 16,
+        "content": "In addition to azithromycin’s antimicrobial activity, it is a potent immunomodulator that markedly reduces airway",
+        "metadata": {
+            "section_title": "In addition to azithromycin’s antimicrobial activity, it is a potent immunomodulator that markedly reduces airway"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 17,
+        "content": "neutrophilia, IL-8 gene expression, and C-reactive protein levels in lung transplant recipients and cystic fibrosis.[33]",
+        "metadata": {
+            "section_title": "neutrophilia, IL-8 gene expression, and C-reactive protein levels in lung transplant recipients and cystic fibrosis.[33]"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 18,
+        "content": "[34] Azithromycin has in vitro antiviral properties, which has created interest in the experimental treatment of SARS-",
+        "metadata": {
+            "section_title": "[34] Azithromycin has in vitro antiviral properties, which has created interest in the experimental treatment of SARS-"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 19,
+        "content": "CoV-2. By inducing the expression of retinoic acid-inducible gene I (RIG-I) like helicases, azithromycin enhanced the",
+        "metadata": {
+            "section_title": "CoV-2. By inducing the expression of retinoic acid-inducible gene I (RIG-I) like helicases, azithromycin enhanced the"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 20,
+        "content": "rhinovirus-induced expression of interferons in cultured cells of COPD patients but not in cultured cells of healthy",
+        "metadata": {
+            "section_title": "rhinovirus-induced expression of interferons in cultured cells of COPD patients but not in cultured cells of healthy"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 21,
+        "content": "patients in vitro.[35]",
+        "metadata": {
+            "section_title": "patients in vitro.[35]"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 22,
+        "content": "Azithromycin resistance mechanisms are primarily linked to mutations in the 23S ribosomal subunit across various",
+        "metadata": {
+            "section_title": "Azithromycin resistance mechanisms are primarily linked to mutations in the 23S ribosomal subunit across various"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 23,
+        "content": "bacterial species, including N gonorrhoeae, P aeruginosa, and C trachomatis. In Enterobacteriaceae, resistance is",
+        "metadata": {
+            "section_title": "bacterial species, including N gonorrhoeae, P aeruginosa, and C trachomatis. In Enterobacteriaceae, resistance is"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 24,
+        "content": "associated with 23S rRNA mutations and ribosomal protein alterations, often coupled with methylation by erm-like",
+        "metadata": {
+            "section_title": "associated with 23S rRNA mutations and ribosomal protein alterations, often coupled with methylation by erm-like"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 25,
+        "content": "genes. Efflux pump overexpression is a common resistance mechanism observed in P aeruginosa, E coli, and S",
+        "metadata": {
+            "section_title": "genes. Efflux pump overexpression is a common resistance mechanism observed in P aeruginosa, E coli, and S"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 26,
+        "content": "aureus, contributing to reduced drug accumulation.[36]",
+        "metadata": {
+            "section_title": "aureus, contributing to reduced drug accumulation.[36]"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 27,
+        "content": "Pharmacokinetics",
+        "metadata": {
+            "section_title": "Pharmacokinetics"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 28,
+        "content": "Absorption: The absolute bioavailability of a 250 mg dose of azithromycin is approximately 38%. When",
+        "metadata": {
+            "section_title": "Absorption: The absolute bioavailability of a 250 mg dose of azithromycin is approximately 38%. When"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 29,
+        "content": "administered as an oral suspension with food, the peak plasma concentration increases by 56%, while the area under",
+        "metadata": {
+            "section_title": "administered as an oral suspension with food, the peak plasma concentration increases by 56%, while the area under"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 30,
+        "content": "the curve (AUC) remains unchanged.",
+        "metadata": {
+            "section_title": "the curve (AUC) remains unchanged."
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 31,
+        "content": "Distribution: Azithromycin demonstrates excellent tissue penetration and intracellular accumulation. Azithromycin",
+        "metadata": {
+            "section_title": "Distribution: Azithromycin demonstrates excellent tissue penetration and intracellular accumulation. Azithromycin"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 32,
+        "content": "exhibits variable serum protein binding, decreasing from 51% at a concentration of 0.02 µg/mL to 7% at 2",
+        "metadata": {
+            "section_title": "exhibits variable serum protein binding, decreasing from 51% at a concentration of 0.02 µg/mL to 7% at 2"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 33,
+        "content": "µg/mL. Azithromycin penetrates various human tissues, including the skin, bones, lungs, tonsils, cervix, prostate,",
+        "metadata": {
+            "section_title": "µg/mL. Azithromycin penetrates various human tissues, including the skin, bones, lungs, tonsils, cervix, prostate,"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 34,
+        "content": "ovaries, uterus, stomach, liver, and gallbladder. Azithromycin is highly concentrated in phagocytes, with an",
+        "metadata": {
+            "section_title": "ovaries, uterus, stomach, liver, and gallbladder. Azithromycin is highly concentrated in phagocytes, with an"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 35,
+        "content": "intracellular-to-extracellular concentration ratio exceeding 30 after 1 hour. This accumulation in phagocytes likely",
+        "metadata": {
+            "section_title": "intracellular-to-extracellular concentration ratio exceeding 30 after 1 hour. This accumulation in phagocytes likely"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 36,
+        "content": "enhances drug distribution to inflamed tissues.",
+        "metadata": {
+            "section_title": "enhances drug distribution to inflamed tissues."
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 37,
+        "content": "Metabolism: Azithromycin is metabolized primarily in the liver. After administering single 500 mg oral or",
+        "metadata": {
+            "section_title": "Metabolism: Azithromycin is metabolized primarily in the liver. After administering single 500 mg oral or"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 38,
+        "content": "intravenous doses of azithromycin, plasma concentrations decrease in a polyphasic manner, leading to an average",
+        "metadata": {
+            "section_title": "intravenous doses of azithromycin, plasma concentrations decrease in a polyphasic manner, leading to an average"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 39,
+        "content": "terminal half-life of about 68 hours.[37] The long half-life and extensive tissue and intracellular distribution permit",
+        "metadata": {
+            "section_title": "terminal half-life of about 68 hours.[37] The long half-life and extensive tissue and intracellular distribution permit"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 40,
+        "content": "once-daily dosing and a shorter course of treatment than other antimicrobials. For example, a chlamydia infection",
+        "metadata": {
+            "section_title": "once-daily dosing and a shorter course of treatment than other antimicrobials. For example, a chlamydia infection"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 41,
+        "content": "may be treated with a single 1 g dose of azithromycin versus 100 mg of doxycycline twice daily for 7 days.6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf",
+        "metadata": {
+            "section_title": "may be treated with a single 1 g dose of azithromycin versus 100 mg of doxycycline twice daily for 7 days.6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf"
+        }
+    },
+    {
+        "page_number": 3,
+        "section_number": 42,
+        "content": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 3/13",
+        "metadata": {
+            "section_title": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 3/13"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 1,
+        "content": "Elimination: Biliary excretion is the primary route for eliminating unchanged medication following oral",
+        "metadata": {
+            "section_title": "Elimination: Biliary excretion is the primary route for eliminating unchanged medication following oral"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 2,
+        "content": "administration.[38]",
+        "metadata": {
+            "section_title": "administration.[38]"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 3,
+        "content": "Administration",
+        "metadata": {
+            "section_title": "Administration"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 4,
+        "content": "Available Dosage Forms and Strengths",
+        "metadata": {
+            "section_title": "Available Dosage Forms and Strengths"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 5,
+        "content": "Oral formulations include tablets (250 mg, 500 mg), packets (1 gram dissolved in ¼ cup or 60 mL of water),",
+        "metadata": {
+            "section_title": "Oral formulations include tablets (250 mg, 500 mg), packets (1 gram dissolved in ¼ cup or 60 mL of water),"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 6,
+        "content": "and suspension for reconstitution (100 mg/5 mL, 200 mg/5 mL). These formulations can be administered with",
+        "metadata": {
+            "section_title": "and suspension for reconstitution (100 mg/5 mL, 200 mg/5 mL). These formulations can be administered with"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 7,
+        "content": "or without food.",
+        "metadata": {
+            "section_title": "or without food."
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 8,
+        "content": "Intravenous (IV) azithromycin is available in a 500 mg preservative-free solution for reconstitution. IV",
+        "metadata": {
+            "section_title": "Intravenous (IV) azithromycin is available in a 500 mg preservative-free solution for reconstitution. IV"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 9,
+        "content": "azithromycin should be infused over at least 60 minutes. Azithromycin should not be administered via",
+        "metadata": {
+            "section_title": "azithromycin should be infused over at least 60 minutes. Azithromycin should not be administered via"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 10,
+        "content": "intramuscular injection or IV bolus.",
+        "metadata": {
+            "section_title": "intramuscular injection or IV bolus."
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 11,
+        "content": "Ophthalmic azithromycin solution (1%) for bacterial conjunctivitis is available in a 2.5 mL bottle.",
+        "metadata": {
+            "section_title": "Ophthalmic azithromycin solution (1%) for bacterial conjunctivitis is available in a 2.5 mL bottle."
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 12,
+        "content": "The extended-release formulation of azithromycin has been discontinued.",
+        "metadata": {
+            "section_title": "The extended-release formulation of azithromycin has been discontinued."
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 13,
+        "content": "Adult Dosage",
+        "metadata": {
+            "section_title": "Adult Dosage"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 14,
+        "content": "The standard dose is 250 or 500 mg, once daily, for 3 to 5 days. Higher doses are typically reserved for severe",
+        "metadata": {
+            "section_title": "The standard dose is 250 or 500 mg, once daily, for 3 to 5 days. Higher doses are typically reserved for severe"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 15,
+        "content": "infections. A single 1 g dose may be given for adults with chlamydia.",
+        "metadata": {
+            "section_title": "infections. A single 1 g dose may be given for adults with chlamydia. "
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 16,
+        "content": "Acute otitis media: For patients 6 months and older, azithromycin may be given in a single 30 mg/kg dose, or 10",
+        "metadata": {
+            "section_title": "Acute otitis media: For patients 6 months and older, azithromycin may be given in a single 30 mg/kg dose, or 10"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 17,
+        "content": "mg/kg once daily for 3 days, or 10 mg/kg on Day 1, followed by 5 mg/kg/d for the next 4 days.",
+        "metadata": {
+            "section_title": "mg/kg once daily for 3 days, or 10 mg/kg on Day 1, followed by 5 mg/kg/d for the next 4 days."
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 18,
+        "content": "Community-acquired pneumonia: For patients 6 months and older with an infection due to C pneumoniae, H",
+        "metadata": {
+            "section_title": "Community-acquired pneumonia: For patients 6 months and older with an infection due to C pneumoniae, H"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 19,
+        "content": "influenzae, M pneumoniae, or S pneumoniae, the recommended dosage is 10 mg/kg orally as a single dose on Day 1,",
+        "metadata": {
+            "section_title": "influenzae, M pneumoniae, or S pneumoniae, the recommended dosage is 10 mg/kg orally as a single dose on Day 1,"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 20,
+        "content": "followed by 5 mg/kg/d orally for the next 4 days. Azithromycin is usually combined with third-generation",
+        "metadata": {
+            "section_title": "followed by 5 mg/kg/d orally for the next 4 days. Azithromycin is usually combined with third-generation"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 21,
+        "content": "cephalosporins, such as ceftriaxone.[39]",
+        "metadata": {
+            "section_title": "cephalosporins, such as ceftriaxone.[39]"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 22,
+        "content": "Acute bacterial sinusitis: The azithromycin dosage is 10 mg/kg orally once daily for 3 days.",
+        "metadata": {
+            "section_title": "Acute bacterial sinusitis: The azithromycin dosage is 10 mg/kg orally once daily for 3 days. "
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 23,
+        "content": "Pharyngitis/tonsillitis: For patients 2 years and older with pharyngitis or tonsillitis caused by S pyogenes,",
+        "metadata": {
+            "section_title": "Pharyngitis/tonsillitis: For patients 2 years and older with pharyngitis or tonsillitis caused by S pyogenes,"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 24,
+        "content": "azithromycin is given at 12 mg/kg orally once daily for 5 days, with a maximum daily dose of 500 mg.",
+        "metadata": {
+            "section_title": "azithromycin is given at 12 mg/kg orally once daily for 5 days, with a maximum daily dose of 500 mg."
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 25,
+        "content": "Specific Patient Populations",
+        "metadata": {
+            "section_title": "Specific Patient Populations"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 26,
+        "content": "Hepatic impairment: The pharmacokinetics of azithromycin in hepatic impairment have not been determined, so it",
+        "metadata": {
+            "section_title": "Hepatic impairment: The pharmacokinetics of azithromycin in hepatic impairment have not been determined, so it"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 27,
+        "content": "should be prescribed cautiously in this population.",
+        "metadata": {
+            "section_title": "should be prescribed cautiously in this population."
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 28,
+        "content": "Renal impairment: Azithromycin may be administered to patients with renal disease or failure without regard for",
+        "metadata": {
+            "section_title": "Renal impairment: Azithromycin may be administered to patients with renal disease or failure without regard for"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 29,
+        "content": "creatinine clearance. Dose adjustments are usually not necessary.[37]",
+        "metadata": {
+            "section_title": "creatinine clearance. Dose adjustments are usually not necessary.[37]"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 30,
+        "content": "Pregnancy considerations: According to the American College of Obstetricians and Gynecologists guidelines,",
+        "metadata": {
+            "section_title": "Pregnancy considerations: According to the American College of Obstetricians and Gynecologists guidelines,"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 31,
+        "content": "azithromycin may be included in a combination regimen for managing preterm rupture of membranes and can serve",
+        "metadata": {
+            "section_title": "azithromycin may be included in a combination regimen for managing preterm rupture of membranes and can serve"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 32,
+        "content": "as an adjunctive prophylactic antibiotic for patients undergoing emergent cesarean delivery. Additionally,",
+        "metadata": {
+            "section_title": "as an adjunctive prophylactic antibiotic for patients undergoing emergent cesarean delivery. Additionally,"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 33,
+        "content": "azithromycin may be indicated in specific scenarios before vaginal delivery for patients at high risk of endocarditis.",
+        "metadata": {
+            "section_title": "azithromycin may be indicated in specific scenarios before vaginal delivery for patients at high risk of endocarditis."
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 34,
+        "content": "[40][41][42]",
+        "metadata": {
+            "section_title": "[40][41][42]"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 35,
+        "content": "Breastfeeding considerations: Azithromycin is concentrated minimally in breast milk, making adverse effects in",
+        "metadata": {
+            "section_title": "Breastfeeding considerations: Azithromycin is concentrated minimally in breast milk, making adverse effects in"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 36,
+        "content": "breastfed infants unlikely; monitoring for gastrointestinal effects, including vomiting, diarrhea, and candidiasis, is",
+        "metadata": {
+            "section_title": "breastfed infants unlikely; monitoring for gastrointestinal effects, including vomiting, diarrhea, and candidiasis, is"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 37,
+        "content": "recommended. One study demonstrated that a single dose of azithromycin administered to women who were nasal",
+        "metadata": {
+            "section_title": "recommended. One study demonstrated that a single dose of azithromycin administered to women who were nasal"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 38,
+        "content": "carriers of pathogenic Staphylococcus and Streptococcus during labor reduced bacterial counts in breast milk but6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf",
+        "metadata": {
+            "section_title": "carriers of pathogenic Staphylococcus and Streptococcus during labor reduced bacterial counts in breast milk but6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf"
+        }
+    },
+    {
+        "page_number": 4,
+        "section_number": 39,
+        "content": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 4/13",
+        "metadata": {
+            "section_title": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 4/13"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 1,
+        "content": "increased the prevalence of azithromycin-resistant E coli and K pneumoniae. The use of azithromycin eye drops by",
+        "metadata": {
+            "section_title": "increased the prevalence of azithromycin-resistant E coli and K pneumoniae. The use of azithromycin eye drops by"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 2,
+        "content": "breastfeeding mothers poses negligible risk to the infant, and applying pressure over the tear duct for 1 minute after",
+        "metadata": {
+            "section_title": "breastfeeding mothers poses negligible risk to the infant, and applying pressure over the tear duct for 1 minute after"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 3,
+        "content": "administration can further reduce drug transfer to breast milk.[43]",
+        "metadata": {
+            "section_title": "administration can further reduce drug transfer to breast milk.[43]"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 4,
+        "content": "Pediatric patients: Azithromycin is indicated for patients 6 months or older with community-acquired pneumonia",
+        "metadata": {
+            "section_title": "Pediatric patients: Azithromycin is indicated for patients 6 months or older with community-acquired pneumonia"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 5,
+        "content": "due to C pneumoniae, H influenzae, M pneumoniae, or S pneumoniae. Azithromycin is also FDA-approved for",
+        "metadata": {
+            "section_title": "due to C pneumoniae, H influenzae, M pneumoniae, or S pneumoniae. Azithromycin is also FDA-approved for"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 6,
+        "content": "patients 6 months or older with acute otitis media caused by H influenzae, M catarrhalis, or S",
+        "metadata": {
+            "section_title": "patients 6 months or older with acute otitis media caused by H influenzae, M catarrhalis, or S"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 7,
+        "content": "pneumoniae. Azithromycin is also indicated for patients 6 months or older with acute bacterial sinusitis caused by H",
+        "metadata": {
+            "section_title": "pneumoniae. Azithromycin is also indicated for patients 6 months or older with acute bacterial sinusitis caused by H"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 8,
+        "content": "influenzae, M catarrhalis, or S pneumoniae. For patients 2 years or older with pharyngitis or tonsillitis caused by S",
+        "metadata": {
+            "section_title": "influenzae, M catarrhalis, or S pneumoniae. For patients 2 years or older with pharyngitis or tonsillitis caused by S"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 9,
+        "content": "pyogenes, azithromycin is an alternative therapy for individuals who cannot tolerate first-line treatment.",
+        "metadata": {
+            "section_title": "pyogenes, azithromycin is an alternative therapy for individuals who cannot tolerate first-line treatment."
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 10,
+        "content": "Older patients: No significant differences in safety or effectiveness have been observed between older and younger",
+        "metadata": {
+            "section_title": "Older patients: No significant differences in safety or effectiveness have been observed between older and younger"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 11,
+        "content": "patients. However, greater sensitivity among some older patients cannot be ruled out based on reported clinical",
+        "metadata": {
+            "section_title": "patients. However, greater sensitivity among some older patients cannot be ruled out based on reported clinical"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 12,
+        "content": "experiences.",
+        "metadata": {
+            "section_title": "experiences."
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 13,
+        "content": "Adverse Effects",
+        "metadata": {
+            "section_title": "Adverse Effects"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 14,
+        "content": "Azithromycin is considered a safe antimicrobial agent, and only a few patients discontinue it due to adverse effects.",
+        "metadata": {
+            "section_title": "Azithromycin is considered a safe antimicrobial agent, and only a few patients discontinue it due to adverse effects."
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 15,
+        "content": "[44] This medication is also associated with fewer adverse cardiac effects than other macrolides (eg,",
+        "metadata": {
+            "section_title": "[44] This medication is also associated with fewer adverse cardiac effects than other macrolides (eg,"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 16,
+        "content": "erythromycin, clarithromycin).",
+        "metadata": {
+            "section_title": "erythromycin, clarithromycin)."
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 17,
+        "content": "Like other macrolides, azithromycin can cause QTc prolongation, which can result in torsades de pointes or",
+        "metadata": {
+            "section_title": "Like other macrolides, azithromycin can cause QTc prolongation, which can result in torsades de pointes or"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 18,
+        "content": "polymorphic ventricular tachycardia. In a large retrospective cohort study, azithromycin use correlated with a",
+        "metadata": {
+            "section_title": "polymorphic ventricular tachycardia. In a large retrospective cohort study, azithromycin use correlated with a"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 19,
+        "content": "small but significant absolute increase in cardiovascular death as well as an increased risk of cardiovascular",
+        "metadata": {
+            "section_title": "small but significant absolute increase in cardiovascular death as well as an increased risk of cardiovascular"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 20,
+        "content": "death relative to amoxicillin. These results were most pronounced among patients with the highest baseline",
+        "metadata": {
+            "section_title": "death relative to amoxicillin. These results were most pronounced among patients with the highest baseline"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 21,
+        "content": "cardiovascular risk.[45] However, another large cohort study failed to detect an increased risk of death from",
+        "metadata": {
+            "section_title": "cardiovascular risk.[45] However, another large cohort study failed to detect an increased risk of death from"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 22,
+        "content": "cardiovascular causes in young and middle-aged adults.[46]",
+        "metadata": {
+            "section_title": "cardiovascular causes in young and middle-aged adults.[46] "
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 23,
+        "content": "Azithromycin is rarely associated with hepatotoxicity, which primarily manifests as hepatocellular injury within",
+        "metadata": {
+            "section_title": "Azithromycin is rarely associated with hepatotoxicity, which primarily manifests as hepatocellular injury within"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 24,
+        "content": "3 weeks of initiating therapy. Clinical features of hepatotoxicity include cholestatic jaundice and elevated",
+        "metadata": {
+            "section_title": "3 weeks of initiating therapy. Clinical features of hepatotoxicity include cholestatic jaundice and elevated"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 25,
+        "content": "transaminase concentrations.[47]",
+        "metadata": {
+            "section_title": "transaminase concentrations.[47]"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 26,
+        "content": "Like other macrolides, azithromycin is associated with gastrointestinal adverse effects such as nausea and",
+        "metadata": {
+            "section_title": "Like other macrolides, azithromycin is associated with gastrointestinal adverse effects such as nausea and"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 27,
+        "content": "diarrhea. All macrolides exhibit dose-dependent activation of intestinal motilin receptors, stimulating gastric",
+        "metadata": {
+            "section_title": "diarrhea. All macrolides exhibit dose-dependent activation of intestinal motilin receptors, stimulating gastric"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 28,
+        "content": "motility. Clinicians widely prescribe erythromycin for treating gastroparesis due to this mechanism.[48]",
+        "metadata": {
+            "section_title": "motility. Clinicians widely prescribe erythromycin for treating gastroparesis due to this mechanism.[48]"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 29,
+        "content": "Life-threatening hypersensitivity reactions to azithromycin, such as anaphylaxis and Stevens-Johnson syndrome",
+        "metadata": {
+            "section_title": "Life-threatening hypersensitivity reactions to azithromycin, such as anaphylaxis and Stevens-Johnson syndrome"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 30,
+        "content": "(SJS), are rare.[49][50]",
+        "metadata": {
+            "section_title": "(SJS), are rare.[49][50] "
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 31,
+        "content": "Macrolides are also associated with the development of Clostridioides difficile infection but to a lesser degree",
+        "metadata": {
+            "section_title": "Macrolides are also associated with the development of Clostridioides difficile infection but to a lesser degree"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 32,
+        "content": "than other common antimicrobial classes (eg, clindamycin, fluoroquinolones, and cephalosporins).[51][52][53]",
+        "metadata": {
+            "section_title": "than other common antimicrobial classes (eg, clindamycin, fluoroquinolones, and cephalosporins).[51][52][53]"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 33,
+        "content": "A retrospective cohort study found that outpatient azithromycin use was associated with a higher risk of",
+        "metadata": {
+            "section_title": "A retrospective cohort study found that outpatient azithromycin use was associated with a higher risk of"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 34,
+        "content": "cardiovascular and noncardiovascular death. However, causality cannot be established due to potential residual",
+        "metadata": {
+            "section_title": "cardiovascular and noncardiovascular death. However, causality cannot be established due to potential residual"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 35,
+        "content": "confounding.[54]",
+        "metadata": {
+            "section_title": "confounding.[54]"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 36,
+        "content": "Drug-Drug Interactions",
+        "metadata": {
+            "section_title": "Drug-Drug Interactions"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 37,
+        "content": "Azithromycin should be avoided in patients taking the first-generation antipsychotic pimozide. Macrolide",
+        "metadata": {
+            "section_title": "Azithromycin should be avoided in patients taking the first-generation antipsychotic pimozide. Macrolide"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 38,
+        "content": "antimicrobials inhibit CYP3A4, the same cytochrome that metabolizes pimozide; concomitant use of",
+        "metadata": {
+            "section_title": "antimicrobials inhibit CYP3A4, the same cytochrome that metabolizes pimozide; concomitant use of"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 39,
+        "content": "azithromycin with pimozide can cause dangerous plasma concentrations of pimozide, leading to QTc",
+        "metadata": {
+            "section_title": "azithromycin with pimozide can cause dangerous plasma concentrations of pimozide, leading to QTc"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 40,
+        "content": "prolongation and, potentially, lethal arrhythmias. While azithromycin is a poor inhibitor of CYP3A4 relative to",
+        "metadata": {
+            "section_title": "prolongation and, potentially, lethal arrhythmias. While azithromycin is a poor inhibitor of CYP3A4 relative to"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 41,
+        "content": "other macrolides, avoiding this interaction is still advisable.[55][56]6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf",
+        "metadata": {
+            "section_title": "other macrolides, avoiding this interaction is still advisable.[55][56]6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf"
+        }
+    },
+    {
+        "page_number": 5,
+        "section_number": 42,
+        "content": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 5/13",
+        "metadata": {
+            "section_title": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 5/13"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 1,
+        "content": "Azithromycin is an inhibitor of p-glycoprotein/ABCB1, a cell membrane glycoprotein transporter. Drugs that",
+        "metadata": {
+            "section_title": "Azithromycin is an inhibitor of p-glycoprotein/ABCB1, a cell membrane glycoprotein transporter. Drugs that"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 2,
+        "content": "are substrates of P-glycoprotein, particularly those that are also substrates of CYP3A4, represent a relative",
+        "metadata": {
+            "section_title": "are substrates of P-glycoprotein, particularly those that are also substrates of CYP3A4, represent a relative"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 3,
+        "content": "contraindication to azithromycin administration. Examples include colchicine and small-molecule calcitonin",
+        "metadata": {
+            "section_title": "contraindication to azithromycin administration. Examples include colchicine and small-molecule calcitonin"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 4,
+        "content": "gene-related peptide (CGRP) antagonists.[57][58]",
+        "metadata": {
+            "section_title": "gene-related peptide (CGRP) antagonists.[57][58]"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 5,
+        "content": "Intravesical Bacillus Calmette-Guérin (BCG) instillations are prescribed as a treatment for bladder cancer.",
+        "metadata": {
+            "section_title": "Intravesical Bacillus Calmette-Guérin (BCG) instillations are prescribed as a treatment for bladder cancer."
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 6,
+        "content": "While product labeling advises suspending BCG therapy during antibiotic treatment due to potential",
+        "metadata": {
+            "section_title": "While product labeling advises suspending BCG therapy during antibiotic treatment due to potential"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 7,
+        "content": "interference with clinical response, antibiotics may still be necessary during this interval. A recent study of 126",
+        "metadata": {
+            "section_title": "interference with clinical response, antibiotics may still be necessary during this interval. A recent study of 126"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 8,
+        "content": "patients found no significant impact of antibiotics on recurrence-free or progression-free survival during BCG",
+        "metadata": {
+            "section_title": "patients found no significant impact of antibiotics on recurrence-free or progression-free survival during BCG"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 9,
+        "content": "induction. Prolonged antibiotic treatment did extend the duration of BCG therapy, but overall, antibiotics did",
+        "metadata": {
+            "section_title": "induction. Prolonged antibiotic treatment did extend the duration of BCG therapy, but overall, antibiotics did"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 10,
+        "content": "not adversely affect oncological outcomes or adverse effects; a thorough risk-benefit evaluation is required.[59]",
+        "metadata": {
+            "section_title": "not adversely affect oncological outcomes or adverse effects; a thorough risk-benefit evaluation is required.[59]"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 11,
+        "content": "Contraindications",
+        "metadata": {
+            "section_title": "Contraindications"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 12,
+        "content": "Azithromycin is contraindicated for patients with a history of severe hypersensitivity (eg, anaphylaxis or SJS) to",
+        "metadata": {
+            "section_title": "Azithromycin is contraindicated for patients with a history of severe hypersensitivity (eg, anaphylaxis or SJS) to"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 13,
+        "content": "azithromycin or another macrolide antimicrobial. Azithromycin is also contraindicated for patients with a history of",
+        "metadata": {
+            "section_title": "azithromycin or another macrolide antimicrobial. Azithromycin is also contraindicated for patients with a history of"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 14,
+        "content": "cholestatic jaundice or hepatic dysfunction related to prior use of the drug.",
+        "metadata": {
+            "section_title": "cholestatic jaundice or hepatic dysfunction related to prior use of the drug."
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 15,
+        "content": "Warning and Precautions",
+        "metadata": {
+            "section_title": "Warning and Precautions"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 16,
+        "content": "Azithromycin effectively preserves FEV and ameliorates bronchiolitis obliterans (BO) with no effect on overall",
+        "metadata": {
+            "section_title": "Azithromycin effectively preserves FEV and ameliorates bronchiolitis obliterans (BO) with no effect on overall"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 17,
+        "content": "survival in lung transplant patients; however, a study comparing azithromycin with placebo for the prevention",
+        "metadata": {
+            "section_title": "survival in lung transplant patients; however, a study comparing azithromycin with placebo for the prevention"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 18,
+        "content": "of BO in hematopoietic stem cell transplant (HSCT) recipients demonstrated decreased BO-free and overall",
+        "metadata": {
+            "section_title": "of BO in hematopoietic stem cell transplant (HSCT) recipients demonstrated decreased BO-free and overall"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 19,
+        "content": "survival with azithromycin.[60] Hence, long-term azithromycin prophylaxis in HSCT recipients is inadvisable.",
+        "metadata": {
+            "section_title": "survival with azithromycin.[60] Hence, long-term azithromycin prophylaxis in HSCT recipients is inadvisable."
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 20,
+        "content": "Clinicians should be cautious regarding the concomitant use of azithromycin and other medications that prolong",
+        "metadata": {
+            "section_title": "Clinicians should be cautious regarding the concomitant use of azithromycin and other medications that prolong"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 21,
+        "content": "the QTc interval, such as antipsychotics.",
+        "metadata": {
+            "section_title": "the QTc interval, such as antipsychotics."
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 22,
+        "content": "According to the KIDs list (Key Potentially Inappropriate Drugs in Pediatrics), azithromycin should be avoided",
+        "metadata": {
+            "section_title": "According to the KIDs list (Key Potentially Inappropriate Drugs in Pediatrics), azithromycin should be avoided"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 23,
+        "content": "in neonates due to the risk of hypertrophic pyloric stenosis.[61]",
+        "metadata": {
+            "section_title": "in neonates due to the risk of hypertrophic pyloric stenosis.[61]"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 24,
+        "content": "Monitoring",
+        "metadata": {
+            "section_title": "Monitoring"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 25,
+        "content": "Most courses of treatment with azithromycin are short, and adverse effects requiring therapy adjustment or",
+        "metadata": {
+            "section_title": "Most courses of treatment with azithromycin are short, and adverse effects requiring therapy adjustment or"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 26,
+        "content": "discontinuation of azithromycin are rare.[44] Azithromycin should be immediately discontinued if signs of",
+        "metadata": {
+            "section_title": "discontinuation of azithromycin are rare.[44] Azithromycin should be immediately discontinued if signs of"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 27,
+        "content": "hepatotoxicity develop (eg, jaundice or elevated transaminases). For patients receiving long-term azithromycin",
+        "metadata": {
+            "section_title": "hepatotoxicity develop (eg, jaundice or elevated transaminases). For patients receiving long-term azithromycin"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 28,
+        "content": "prophylaxis (eg, AIDS patients for MAC prophylaxis or lung transplant recipients for BO prophylaxis), many patients",
+        "metadata": {
+            "section_title": "prophylaxis (eg, AIDS patients for MAC prophylaxis or lung transplant recipients for BO prophylaxis), many patients"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 29,
+        "content": "experience gastrointestinal adverse effects, especially at higher doses (ie, 600 or 1200 mg). Reducing the dose or",
+        "metadata": {
+            "section_title": "experience gastrointestinal adverse effects, especially at higher doses (ie, 600 or 1200 mg). Reducing the dose or"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 30,
+        "content": "twice-daily dosing may be considered for these patients.[62][63]",
+        "metadata": {
+            "section_title": "twice-daily dosing may be considered for these patients.[62][63]"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 31,
+        "content": "Toxicity",
+        "metadata": {
+            "section_title": "Toxicity"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 32,
+        "content": "Signs and Symptoms of Overdose",
+        "metadata": {
+            "section_title": "Signs and Symptoms of Overdose"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 33,
+        "content": "Azithromycin, like other macrolides, is associated with QTc prolongation. Azithromycin administration can result in",
+        "metadata": {
+            "section_title": "Azithromycin, like other macrolides, is associated with QTc prolongation. Azithromycin administration can result in"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 34,
+        "content": "potentially lethal arrhythmias such as torsades de pointes. This is particularly true for patients with a history of QTc",
+        "metadata": {
+            "section_title": "potentially lethal arrhythmias such as torsades de pointes. This is particularly true for patients with a history of QTc"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 35,
+        "content": "interval perturbation, cardiac arrhythmia, or concomitant use of other medications associated with QTc prolongation.",
+        "metadata": {
+            "section_title": "interval perturbation, cardiac arrhythmia, or concomitant use of other medications associated with QTc prolongation."
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 36,
+        "content": "In animal studies, although azithromycin was associated with similar QTc prolongation compared to other",
+        "metadata": {
+            "section_title": "In animal studies, although azithromycin was associated with similar QTc prolongation compared to other"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 37,
+        "content": "macrolides, it seemed to have a negligible proarrhythmic effect.[64] While significant hepatoxicity resulting from",
+        "metadata": {
+            "section_title": "macrolides, it seemed to have a negligible proarrhythmic effect.[64] While significant hepatoxicity resulting from"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 38,
+        "content": "azithromycin is relatively rare, macrolides are known to cause mixed hepatocellular/cholestatic drug-induced liver",
+        "metadata": {
+            "section_title": "azithromycin is relatively rare, macrolides are known to cause mixed hepatocellular/cholestatic drug-induced liver"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 39,
+        "content": "injury. With prompt discontinuation of azithromycin, liver injury is almost always reversible with minimal residual",
+        "metadata": {
+            "section_title": "injury. With prompt discontinuation of azithromycin, liver injury is almost always reversible with minimal residual"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 40,
+        "content": "impairment. Often, azithromycin-induced hepatotoxicity has associated immunoallergenic features such as rash, fever,6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf",
+        "metadata": {
+            "section_title": "impairment. Often, azithromycin-induced hepatotoxicity has associated immunoallergenic features such as rash, fever,6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf"
+        }
+    },
+    {
+        "page_number": 6,
+        "section_number": 41,
+        "content": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 6/13",
+        "metadata": {
+            "section_title": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 6/13"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 1,
+        "content": "and eosinophilia. Severe reactions, such as anaphylaxis, SJS, and drug reaction with eosinophilia and systemic",
+        "metadata": {
+            "section_title": "and eosinophilia. Severe reactions, such as anaphylaxis, SJS, and drug reaction with eosinophilia and systemic"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 2,
+        "content": "symptoms (DRESS), are rare.[65] Gastrointestinal toxicity is common but typically mild, and most patients can",
+        "metadata": {
+            "section_title": "symptoms (DRESS), are rare.[65] Gastrointestinal toxicity is common but typically mild, and most patients can"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 3,
+        "content": "complete the prescribed course of azithromycin. This toxicity is the result of azithromycin’s activation of pro-motility",
+        "metadata": {
+            "section_title": "complete the prescribed course of azithromycin. This toxicity is the result of azithromycin’s activation of pro-motility"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 4,
+        "content": "receptors in the gastrointestinal tract.",
+        "metadata": {
+            "section_title": "receptors in the gastrointestinal tract."
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 5,
+        "content": "Management of Overdose",
+        "metadata": {
+            "section_title": "Management of Overdose"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 6,
+        "content": "There is no antidote for azithromycin overdose. General symptomatic and supportive measures should be instituted as",
+        "metadata": {
+            "section_title": "There is no antidote for azithromycin overdose. General symptomatic and supportive measures should be instituted as"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 7,
+        "content": "necessary.",
+        "metadata": {
+            "section_title": "necessary. "
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 8,
+        "content": "Enhancing Healthcare Team Outcomes",
+        "metadata": {
+            "section_title": "Enhancing Healthcare Team Outcomes"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 9,
+        "content": "Although azithromycin is a well-tolerated and effective antimicrobial agent with many clinical indications, it is often",
+        "metadata": {
+            "section_title": "Although azithromycin is a well-tolerated and effective antimicrobial agent with many clinical indications, it is often"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 10,
+        "content": "inappropriately prescribed, particularly in the primary care setting. Several large retrospective cohort",
+        "metadata": {
+            "section_title": "inappropriately prescribed, particularly in the primary care setting. Several large retrospective cohort"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 11,
+        "content": "studies involving high levels of inappropriate antimicrobial prescribing overall singled out azithromycin as the most",
+        "metadata": {
+            "section_title": "studies involving high levels of inappropriate antimicrobial prescribing overall singled out azithromycin as the most"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 12,
+        "content": "frequently misused drug.[66][67][68][69] Azithromycin is frequently prescribed when there is no clinical indication",
+        "metadata": {
+            "section_title": "frequently misused drug.[66][67][68][69] Azithromycin is frequently prescribed when there is no clinical indication"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 13,
+        "content": "for antimicrobials, and in many instances, azithromycin is not first-line therapy (e.g., acute otitis media).[66]",
+        "metadata": {
+            "section_title": "for antimicrobials, and in many instances, azithromycin is not first-line therapy (e.g., acute otitis media).[66]"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 14,
+        "content": "[70] Azithromycin is frequently prescribed when a narrow-spectrum β-lactam (eg, amoxicillin) is the indicated first-",
+        "metadata": {
+            "section_title": "[70] Azithromycin is frequently prescribed when a narrow-spectrum β-lactam (eg, amoxicillin) is the indicated first-"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 15,
+        "content": "line therapy.[66] Increasing resistance to azithromycin, particularly among S pneumoniae isolates, makes the",
+        "metadata": {
+            "section_title": "line therapy.[66] Increasing resistance to azithromycin, particularly among S pneumoniae isolates, makes the"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 16,
+        "content": "widespread use of azithromycin for upper respiratory illness particularly concerning.[71][72] Broad-spectrum",
+        "metadata": {
+            "section_title": "widespread use of azithromycin for upper respiratory illness particularly concerning.[71][72] Broad-spectrum"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 17,
+        "content": "antimicrobial therapy for upper respiratory infection is also associated with increased rates of adverse effects",
+        "metadata": {
+            "section_title": "antimicrobial therapy for upper respiratory infection is also associated with increased rates of adverse effects"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 18,
+        "content": "compared with narrow-spectrum agents.[73][74]",
+        "metadata": {
+            "section_title": "compared with narrow-spectrum agents.[73][74]"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 19,
+        "content": "One possible association with high rates of azithromycin prescription is patient-reported penicillin allergy.",
+        "metadata": {
+            "section_title": "One possible association with high rates of azithromycin prescription is patient-reported penicillin allergy."
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 20,
+        "content": "[75] Macrolides, particularly azithromycin, are preferred to β-lactam drugs for many clinical indications. Researchers",
+        "metadata": {
+            "section_title": "[75] Macrolides, particularly azithromycin, are preferred to β-lactam drugs for many clinical indications. Researchers"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 21,
+        "content": "found 12.8% of patients in an extensive electronic medical records database have a penicillin allergy listed in 1 large",
+        "metadata": {
+            "section_title": "found 12.8% of patients in an extensive electronic medical records database have a penicillin allergy listed in 1 large"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 22,
+        "content": "cohort.[76] Patients with a reported penicillin allergy are as much as 4 times more likely to be prescribed a macrolide",
+        "metadata": {
+            "section_title": "cohort.[76] Patients with a reported penicillin allergy are as much as 4 times more likely to be prescribed a macrolide"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 23,
+        "content": "antimicrobial.[75] However, a detailed history of a patient’s adverse reactions to penicillin, paying close attention to",
+        "metadata": {
+            "section_title": "antimicrobial.[75] However, a detailed history of a patient’s adverse reactions to penicillin, paying close attention to"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 24,
+        "content": "features suggestive of IgE-mediated hypersensitivity (eg, urticaria, anaphylaxis), is often sufficient to clarify and",
+        "metadata": {
+            "section_title": "features suggestive of IgE-mediated hypersensitivity (eg, urticaria, anaphylaxis), is often sufficient to clarify and"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 25,
+        "content": "possibly remove a listing of penicillin allergy.[77] Patients with more concerning histories may be administered",
+        "metadata": {
+            "section_title": "possibly remove a listing of penicillin allergy.[77] Patients with more concerning histories may be administered"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 26,
+        "content": "allergy testing or referred to an allergy specialist. Lastly, providers should know the low cross-reactivity rates with",
+        "metadata": {
+            "section_title": "allergy testing or referred to an allergy specialist. Lastly, providers should know the low cross-reactivity rates with"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 27,
+        "content": "cephalosporins (especially third and later-generation agents) and other β-lactams in penicillin allergy.[78]",
+        "metadata": {
+            "section_title": "cephalosporins (especially third and later-generation agents) and other β-lactams in penicillin allergy.[78]"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 28,
+        "content": "Through antimicrobial stewardship, healthcare professionals can ensure appropriate antimicrobial administration,",
+        "metadata": {
+            "section_title": "Through antimicrobial stewardship, healthcare professionals can ensure appropriate antimicrobial administration,"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 29,
+        "content": "including azithromycin. Adhering to evidence-based guidelines and educating patients reduce resistance and optimize",
+        "metadata": {
+            "section_title": "including azithromycin. Adhering to evidence-based guidelines and educating patients reduce resistance and optimize"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 30,
+        "content": "treatment outcomes. Clinicians should prescribe azithromycin judiciously and adhere to IDSA guidelines. Clinicians",
+        "metadata": {
+            "section_title": "treatment outcomes. Clinicians should prescribe azithromycin judiciously and adhere to IDSA guidelines. Clinicians"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 31,
+        "content": "working with or supervising non-physician prescribers should ensure that all prescriptions accord with evidence and",
+        "metadata": {
+            "section_title": "working with or supervising non-physician prescribers should ensure that all prescriptions accord with evidence and"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 32,
+        "content": "guideline-based practice.[68] Additionally, patients requesting antimicrobial therapy when it is not necessary or",
+        "metadata": {
+            "section_title": "guideline-based practice.[68] Additionally, patients requesting antimicrobial therapy when it is not necessary or"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 33,
+        "content": "sharing concerns about drug allergies should be provided with education and appropriate follow-up. Nurses can",
+        "metadata": {
+            "section_title": "sharing concerns about drug allergies should be provided with education and appropriate follow-up. Nurses can"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 34,
+        "content": "address patient questions and facilitate continuity of care. Pharmacists are an invaluable resource for helping",
+        "metadata": {
+            "section_title": "address patient questions and facilitate continuity of care. Pharmacists are an invaluable resource for helping"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 35,
+        "content": "providers select the most appropriate antimicrobial agent, dosing, and duration of treatment. They can also help",
+        "metadata": {
+            "section_title": "providers select the most appropriate antimicrobial agent, dosing, and duration of treatment. They can also help"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 36,
+        "content": "providers and patients avoid interactions between azithromycin and other drugs that affect the QTc interval. While",
+        "metadata": {
+            "section_title": "providers and patients avoid interactions between azithromycin and other drugs that affect the QTc interval. While"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 37,
+        "content": "azithromycin is a safe and effective antimicrobial drug, practitioners must prescribe it appropriately. The appropriate",
+        "metadata": {
+            "section_title": "azithromycin is a safe and effective antimicrobial drug, practitioners must prescribe it appropriately. The appropriate"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 38,
+        "content": "choice of antibiotic enhances treatment, supports public health, and avoids placing patients at unnecessary risk of",
+        "metadata": {
+            "section_title": "choice of antibiotic enhances treatment, supports public health, and avoids placing patients at unnecessary risk of"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 39,
+        "content": "adverse effects. An interprofessional team approach and communication among clinicians, pharmacists, and nurses are",
+        "metadata": {
+            "section_title": "adverse effects. An interprofessional team approach and communication among clinicians, pharmacists, and nurses are"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 40,
+        "content": "crucial to decreasing potential adverse effects, improving disease course, and improving outcomes for patients",
+        "metadata": {
+            "section_title": "crucial to decreasing potential adverse effects, improving disease course, and improving outcomes for patients"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 41,
+        "content": "receiving azithromycin.",
+        "metadata": {
+            "section_title": "receiving azithromycin."
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 42,
+        "content": "Review Questions",
+        "metadata": {
+            "section_title": "Review Questions"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 43,
+        "content": "Access free multiple choice questions on this topic.6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf",
+        "metadata": {
+            "section_title": "Access free multiple choice questions on this topic.6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf"
+        }
+    },
+    {
+        "page_number": 7,
+        "section_number": 44,
+        "content": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 7/13",
+        "metadata": {
+            "section_title": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 7/13"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 1,
+        "content": "1.",
+        "metadata": {
+            "section_title": "1."
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 2,
+        "content": "2.",
+        "metadata": {
+            "section_title": "2."
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 3,
+        "content": "3.",
+        "metadata": {
+            "section_title": "3."
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 4,
+        "content": "4.",
+        "metadata": {
+            "section_title": "4."
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 5,
+        "content": "5.",
+        "metadata": {
+            "section_title": "5."
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 6,
+        "content": "6.",
+        "metadata": {
+            "section_title": "6."
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 7,
+        "content": "7.",
+        "metadata": {
+            "section_title": "7."
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 8,
+        "content": "8.",
+        "metadata": {
+            "section_title": "8."
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 9,
+        "content": "9.",
+        "metadata": {
+            "section_title": "9."
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 10,
+        "content": "10.",
+        "metadata": {
+            "section_title": "10."
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 11,
+        "content": "11.",
+        "metadata": {
+            "section_title": "11."
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 12,
+        "content": "12.Comment on this article.",
+        "metadata": {
+            "section_title": "12.Comment on this article."
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 13,
+        "content": "References",
+        "metadata": {
+            "section_title": "References"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 14,
+        "content": "Girard AE, Girard D, English AR, Gootz TD, Cimochowski CR, Faiella JA, Haskell SL, Retsema JA.",
+        "metadata": {
+            "section_title": "Girard AE, Girard D, English AR, Gootz TD, Cimochowski CR, Faiella JA, Haskell SL, Retsema JA."
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 15,
+        "content": "Pharmacokinetic and in vivo studies with azithromycin (CP-62,993), a new macrolide with an extended half-life",
+        "metadata": {
+            "section_title": "Pharmacokinetic and in vivo studies with azithromycin (CP-62,993), a new macrolide with an extended half-life"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 16,
+        "content": "and excellent tissue distribution. Antimicrob Agents Chemother. 1987 Dec;31(12):1948-54. [PMC free article:",
+        "metadata": {
+            "section_title": "and excellent tissue distribution. Antimicrob Agents Chemother. 1987 Dec;31(12):1948-54. [PMC free article:"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 17,
+        "content": "PMC175833] [PubMed: 2830841]",
+        "metadata": {
+            "section_title": "PMC175833] [PubMed: 2830841]"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 18,
+        "content": "Retsema J, Girard A, Schelkly W, Manousos M, Anderson M, Bright G, Borovoy R, Brennan L, Mason R.",
+        "metadata": {
+            "section_title": "Retsema J, Girard A, Schelkly W, Manousos M, Anderson M, Bright G, Borovoy R, Brennan L, Mason R."
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 19,
+        "content": "Spectrum and mode of action of azithromycin (CP-62,993), a new 15-membered-ring macrolide with improved",
+        "metadata": {
+            "section_title": "Spectrum and mode of action of azithromycin (CP-62,993), a new 15-membered-ring macrolide with improved"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 20,
+        "content": "potency against gram-negative organisms. Antimicrob Agents Chemother. 1987 Dec;31(12):1939-47. [PMC free",
+        "metadata": {
+            "section_title": "potency against gram-negative organisms. Antimicrob Agents Chemother. 1987 Dec;31(12):1939-47. [PMC free"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 21,
+        "content": "article: PMC175832] [PubMed: 2449865]",
+        "metadata": {
+            "section_title": "article: PMC175832] [PubMed: 2449865]"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 22,
+        "content": "Bakheit AH, Al-Hadiya BM, Abd-Elgalil AA. Azithromycin. Profiles Drug Subst Excip Relat Methodol.",
+        "metadata": {
+            "section_title": "Bakheit AH, Al-Hadiya BM, Abd-Elgalil AA. Azithromycin. Profiles Drug Subst Excip Relat Methodol."
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 23,
+        "content": "2014;39:1-40. [PubMed: 24794904]",
+        "metadata": {
+            "section_title": "2014;39:1-40. [PubMed: 24794904]"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 24,
+        "content": "Dekate PS, Mathew JL, Jayashree M, Singhi SC. Acute community acquired pneumonia in emergency room.",
+        "metadata": {
+            "section_title": "Dekate PS, Mathew JL, Jayashree M, Singhi SC. Acute community acquired pneumonia in emergency room."
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 25,
+        "content": "Indian J Pediatr. 2011 Sep;78(9):1127-35. [PubMed: 21541648]",
+        "metadata": {
+            "section_title": "Indian J Pediatr. 2011 Sep;78(9):1127-35. [PubMed: 21541648]"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 26,
+        "content": "Parnham MJ, Erakovic Haber V, Giamarellos-Bourboulis EJ, Perletti G, Verleden GM, Vos R. Azithromycin:",
+        "metadata": {
+            "section_title": "Parnham MJ, Erakovic Haber V, Giamarellos-Bourboulis EJ, Perletti G, Verleden GM, Vos R. Azithromycin:"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 27,
+        "content": "mechanisms of action and their relevance for clinical applications. Pharmacol Ther. 2014 Aug;143(2):225-45.",
+        "metadata": {
+            "section_title": "mechanisms of action and their relevance for clinical applications. Pharmacol Ther. 2014 Aug;143(2):225-45."
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 28,
+        "content": "[PubMed: 24631273]",
+        "metadata": {
+            "section_title": "[PubMed: 24631273]"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 29,
+        "content": "Pacifico L, Scopetti F, Ranucci A, Pataracchia M, Savignoni F, Chiesa C. Comparative efficacy and safety of 3-",
+        "metadata": {
+            "section_title": "Pacifico L, Scopetti F, Ranucci A, Pataracchia M, Savignoni F, Chiesa C. Comparative efficacy and safety of 3-"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 30,
+        "content": "day azithromycin and 10-day penicillin V treatment of group A beta-hemolytic streptococcal pharyngitis in",
+        "metadata": {
+            "section_title": "day azithromycin and 10-day penicillin V treatment of group A beta-hemolytic streptococcal pharyngitis in"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 31,
+        "content": "children. Antimicrob Agents Chemother. 1996 Apr;40(4):1005-8. [PMC free article: PMC163247] [PubMed:",
+        "metadata": {
+            "section_title": "children. Antimicrob Agents Chemother. 1996 Apr;40(4):1005-8. [PMC free article: PMC163247] [PubMed:"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 32,
+        "content": "8849215]",
+        "metadata": {
+            "section_title": "8849215]"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 33,
+        "content": "Amaya-Tapia G, Aguirre-Avalos G, Andrade-Villanueva J, Peredo-González G, Morfín-Otero R, Esparza-",
+        "metadata": {
+            "section_title": "Amaya-Tapia G, Aguirre-Avalos G, Andrade-Villanueva J, Peredo-González G, Morfín-Otero R, Esparza-"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 34,
+        "content": "Ahumada S, Rodríguez-Noriega E. Once-daily azithromycin in the treatment of adult skin and skin-structure",
+        "metadata": {
+            "section_title": "Ahumada S, Rodríguez-Noriega E. Once-daily azithromycin in the treatment of adult skin and skin-structure"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 35,
+        "content": "infections. J Antimicrob Chemother. 1993 Jun;31 Suppl E:129-35. [PubMed: 8396084]",
+        "metadata": {
+            "section_title": "infections. J Antimicrob Chemother. 1993 Jun;31 Suppl E:129-35. [PubMed: 8396084]"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 36,
+        "content": "Daley CL. Mycobacterium avium Complex Disease. Microbiol Spectr. 2017 Apr;5(2) [PMC free article:",
+        "metadata": {
+            "section_title": "Daley CL. Mycobacterium avium Complex Disease. Microbiol Spectr. 2017 Apr;5(2) [PMC free article:"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 37,
+        "content": "PMC11687487] [PubMed: 28429679]",
+        "metadata": {
+            "section_title": "PMC11687487] [PubMed: 28429679]"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 38,
+        "content": "Waugh MA. Azithromycin in gonorrhoea. Int J STD AIDS. 1996;7 Suppl 1:2-4. [PubMed: 8652723]",
+        "metadata": {
+            "section_title": "Waugh MA. Azithromycin in gonorrhoea. Int J STD AIDS. 1996;7 Suppl 1:2-4. [PubMed: 8652723]"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 39,
+        "content": "Jensen JS, Cusini M, Gomberg M, Moi H. 2016 European guideline on Mycoplasma genitalium infections. J Eur",
+        "metadata": {
+            "section_title": "Jensen JS, Cusini M, Gomberg M, Moi H. 2016 European guideline on Mycoplasma genitalium infections. J Eur"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 40,
+        "content": "Acad Dermatol Venereol. 2016 Oct;30(10):1650-1656. [PubMed: 27505296]",
+        "metadata": {
+            "section_title": "Acad Dermatol Venereol. 2016 Oct;30(10):1650-1656. [PubMed: 27505296]"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 41,
+        "content": "Workowski KA, Bachmann LH, Chan PA, Johnston CM, Muzny CA, Park I, Reno H, Zenilman JM, Bolan GA.",
+        "metadata": {
+            "section_title": "Workowski KA, Bachmann LH, Chan PA, Johnston CM, Muzny CA, Park I, Reno H, Zenilman JM, Bolan GA."
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 42,
+        "content": "Sexually Transmitted Infections Treatment Guidelines, 2021. MMWR Recomm Rep. 2021 Jul 23;70(4):1-187.",
+        "metadata": {
+            "section_title": "Sexually Transmitted Infections Treatment Guidelines, 2021. MMWR Recomm Rep. 2021 Jul 23;70(4):1-187."
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 43,
+        "content": "[PMC free article: PMC8344968] [PubMed: 34292926]",
+        "metadata": {
+            "section_title": "[PMC free article: PMC8344968] [PubMed: 34292926]"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 44,
+        "content": "Carey ME, Dyson ZA, Ingle DJ, Amir A, Aworh MK, Chattaway MA, Chew KL, Crump JA, Feasey NA,",
+        "metadata": {
+            "section_title": "Carey ME, Dyson ZA, Ingle DJ, Amir A, Aworh MK, Chattaway MA, Chew KL, Crump JA, Feasey NA,"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 45,
+        "content": "Howden BP, Keddy KH, Maes M, Parry CM, Van Puyvelde S, Webb HE, Afolayan AO, Alexander AP, Anandan",
+        "metadata": {
+            "section_title": "Howden BP, Keddy KH, Maes M, Parry CM, Van Puyvelde S, Webb HE, Afolayan AO, Alexander AP, Anandan"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 46,
+        "content": "S, Andrews JR, Ashton PM, Basnyat B, Bavdekar A, Bogoch II, Clemens JD, da Silva KE, De A, de Ligt J, Diaz",
+        "metadata": {
+            "section_title": "S, Andrews JR, Ashton PM, Basnyat B, Bavdekar A, Bogoch II, Clemens JD, da Silva KE, De A, de Ligt J, Diaz"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 47,
+        "content": "Guevara PL, Dolecek C, Dutta S, Ehlers MM, Francois Watkins L, Garrett DO, Godbole G, Gordon MA,",
+        "metadata": {
+            "section_title": "Guevara PL, Dolecek C, Dutta S, Ehlers MM, Francois Watkins L, Garrett DO, Godbole G, Gordon MA,"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 48,
+        "content": "Greenhill AR, Griffin C, Gupta M, Hendriksen RS, Heyderman RS, Hooda Y, Hormazabal JC, Ikhimiukor OO,",
+        "metadata": {
+            "section_title": "Greenhill AR, Griffin C, Gupta M, Hendriksen RS, Heyderman RS, Hooda Y, Hormazabal JC, Ikhimiukor OO,"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 49,
+        "content": "Iqbal J, Jacob JJ, Jenkins C, Jinka DR, John J, Kang G, Kanteh A, Kapil A, Karkey A, Kariuki S, Kingsley RA,",
+        "metadata": {
+            "section_title": "Iqbal J, Jacob JJ, Jenkins C, Jinka DR, John J, Kang G, Kanteh A, Kapil A, Karkey A, Kariuki S, Kingsley RA,"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 50,
+        "content": "Koshy RM, Lauer AC, Levine MM, Lingegowda RK, Luby SP, Mackenzie GA, Mashe T, Msefula C, Mutreja A,",
+        "metadata": {
+            "section_title": "Koshy RM, Lauer AC, Levine MM, Lingegowda RK, Luby SP, Mackenzie GA, Mashe T, Msefula C, Mutreja A,"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 51,
+        "content": "Nagaraj G, Nagaraj S, Nair S, Naseri TK, Nimarota-Brown S, Njamkepo E, Okeke IN, Perumal SPB, Pollard AJ,",
+        "metadata": {
+            "section_title": "Nagaraj G, Nagaraj S, Nair S, Naseri TK, Nimarota-Brown S, Njamkepo E, Okeke IN, Perumal SPB, Pollard AJ,"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 52,
+        "content": "Pragasam AK, Qadri F, Qamar FN, Rahman SIA, Rambocus SD, Rasko DA, Ray P, Robins-Browne R, Rongsen-",
+        "metadata": {
+            "section_title": "Pragasam AK, Qadri F, Qamar FN, Rahman SIA, Rambocus SD, Rasko DA, Ray P, Robins-Browne R, Rongsen-"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 53,
+        "content": "Chandola T, Rutanga JP, Saha SK, Saha S, Saigal K, Sajib MSI, Seidman JC, Shakya J, Shamanna V, Shastri J,",
+        "metadata": {
+            "section_title": "Chandola T, Rutanga JP, Saha SK, Saha S, Saigal K, Sajib MSI, Seidman JC, Shakya J, Shamanna V, Shastri J,"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 54,
+        "content": "Shrestha R, Sia S, Sikorski MJ, Singh A, Smith AM, Tagg KA, Tamrakar D, Tanmoy AM, Thomas M, Thomas",
+        "metadata": {
+            "section_title": "Shrestha R, Sia S, Sikorski MJ, Singh A, Smith AM, Tagg KA, Tamrakar D, Tanmoy AM, Thomas M, Thomas"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 55,
+        "content": "MS, Thomsen R, Thomson NR, Tupua S, Vaidya K, Valcanis M, Veeraraghavan B, Weill FX, Wright J, Dougan",
+        "metadata": {
+            "section_title": "MS, Thomsen R, Thomson NR, Tupua S, Vaidya K, Valcanis M, Veeraraghavan B, Weill FX, Wright J, Dougan"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 56,
+        "content": "G, Argimón S, Keane JA, Aanensen DM, Baker S, Holt KE., Global Typhoid Genomics Consortium Group",
+        "metadata": {
+            "section_title": "G, Argimón S, Keane JA, Aanensen DM, Baker S, Holt KE., Global Typhoid Genomics Consortium Group"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 57,
+        "content": "Authorship. Global diversity and antimicrobial resistance of typhoid fever pathogens: Insights from a meta-6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf",
+        "metadata": {
+            "section_title": "Authorship. Global diversity and antimicrobial resistance of typhoid fever pathogens: Insights from a meta-6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf"
+        }
+    },
+    {
+        "page_number": 8,
+        "section_number": 58,
+        "content": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 8/13",
+        "metadata": {
+            "section_title": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 8/13"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 1,
+        "content": "13.",
+        "metadata": {
+            "section_title": "13."
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 2,
+        "content": "14.",
+        "metadata": {
+            "section_title": "14."
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 3,
+        "content": "15.",
+        "metadata": {
+            "section_title": "15."
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 4,
+        "content": "16.",
+        "metadata": {
+            "section_title": "16."
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 5,
+        "content": "17.",
+        "metadata": {
+            "section_title": "17."
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 6,
+        "content": "18.",
+        "metadata": {
+            "section_title": "18."
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 7,
+        "content": "19.",
+        "metadata": {
+            "section_title": "19."
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 8,
+        "content": "20.",
+        "metadata": {
+            "section_title": "20."
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 9,
+        "content": "21.",
+        "metadata": {
+            "section_title": "21."
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 10,
+        "content": "22.",
+        "metadata": {
+            "section_title": "22."
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 11,
+        "content": "23.",
+        "metadata": {
+            "section_title": "23."
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 12,
+        "content": "24.",
+        "metadata": {
+            "section_title": "24."
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 13,
+        "content": "25.analysis of 13,000 Salmonella Typhi genomes. Elife. 2023 Sep 12;12 [PMC free article: PMC10506625] [PubMed:",
+        "metadata": {
+            "section_title": "25.analysis of 13,000 Salmonella Typhi genomes. Elife. 2023 Sep 12;12 [PMC free article: PMC10506625] [PubMed:"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 14,
+        "content": "37697804]",
+        "metadata": {
+            "section_title": "37697804]"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 15,
+        "content": "Vos R, Vanaudenaerde BM, Verleden SE, De Vleeschauwer SI, Willems-Widyastuti A, Van Raemdonck DE,",
+        "metadata": {
+            "section_title": "Vos R, Vanaudenaerde BM, Verleden SE, De Vleeschauwer SI, Willems-Widyastuti A, Van Raemdonck DE,"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 16,
+        "content": "Schoonis A, Nawrot TS, Dupont LJ, Verleden GM. A randomised controlled trial of azithromycin to prevent",
+        "metadata": {
+            "section_title": "Schoonis A, Nawrot TS, Dupont LJ, Verleden GM. A randomised controlled trial of azithromycin to prevent"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 17,
+        "content": "chronic rejection after lung transplantation. Eur Respir J. 2011 Jan;37(1):164-72. [PubMed: 20562124]",
+        "metadata": {
+            "section_title": "chronic rejection after lung transplantation. Eur Respir J. 2011 Jan;37(1):164-72. [PubMed: 20562124]"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 18,
+        "content": "Thomas D, McDonald VM, Stevens S, Baraket M, Hodge S, James A, Jenkins C, Marks GB, Peters M, Reynolds",
+        "metadata": {
+            "section_title": "Thomas D, McDonald VM, Stevens S, Baraket M, Hodge S, James A, Jenkins C, Marks GB, Peters M, Reynolds"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 19,
+        "content": "PN, Upham JW, Yang IA, Gibson PG. Effect of Azithromycin on Asthma Remission in Adults With Persistent",
+        "metadata": {
+            "section_title": "PN, Upham JW, Yang IA, Gibson PG. Effect of Azithromycin on Asthma Remission in Adults With Persistent"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 20,
+        "content": "Uncontrolled Asthma: A Secondary Analysis of a Randomized, Double-Anonymized, Placebo-Controlled Trial.",
+        "metadata": {
+            "section_title": "Uncontrolled Asthma: A Secondary Analysis of a Randomized, Double-Anonymized, Placebo-Controlled Trial."
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 21,
+        "content": "Chest. 2024 Aug;166(2):262-270. [PubMed: 38431051]",
+        "metadata": {
+            "section_title": "Chest. 2024 Aug;166(2):262-270. [PubMed: 38431051]"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 22,
+        "content": "Ukkonen RM, Renko M, Kuitunen I. Azithromycin for acute bronchiolitis and wheezing episodes in children - a",
+        "metadata": {
+            "section_title": "Ukkonen RM, Renko M, Kuitunen I. Azithromycin for acute bronchiolitis and wheezing episodes in children - a"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 23,
+        "content": "systematic review with meta-analysis. Pediatr Res. 2024 May;95(6):1441-1447. [PMC free article:",
+        "metadata": {
+            "section_title": "systematic review with meta-analysis. Pediatr Res. 2024 May;95(6):1441-1447. [PMC free article:"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 24,
+        "content": "PMC11126380] [PubMed: 38066246]",
+        "metadata": {
+            "section_title": "PMC11126380] [PubMed: 38066246]"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 25,
+        "content": "Southern KW, Solis-Moya A, Kurz D, Smith S. Macrolide antibiotics (including azithromycin) for cystic",
+        "metadata": {
+            "section_title": "Southern KW, Solis-Moya A, Kurz D, Smith S. Macrolide antibiotics (including azithromycin) for cystic"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 26,
+        "content": "fibrosis. Cochrane Database Syst Rev. 2024 Feb 27;2(2):CD002203. [PMC free article: PMC10897949]",
+        "metadata": {
+            "section_title": "fibrosis. Cochrane Database Syst Rev. 2024 Feb 27;2(2):CD002203. [PMC free article: PMC10897949]"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 27,
+        "content": "[PubMed: 38411248]",
+        "metadata": {
+            "section_title": "[PubMed: 38411248]"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 28,
+        "content": "Mogayzel PJ, Naureckas ET, Robinson KA, Mueller G, Hadjiliadis D, Hoag JB, Lubsch L, Hazle L, Sabadosa K,",
+        "metadata": {
+            "section_title": "Mogayzel PJ, Naureckas ET, Robinson KA, Mueller G, Hadjiliadis D, Hoag JB, Lubsch L, Hazle L, Sabadosa K,"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 29,
+        "content": "Marshall B., Pulmonary Clinical Practice Guidelines Committee. Cystic fibrosis pulmonary guidelines. Chronic",
+        "metadata": {
+            "section_title": "Marshall B., Pulmonary Clinical Practice Guidelines Committee. Cystic fibrosis pulmonary guidelines. Chronic"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 30,
+        "content": "medications for maintenance of lung health. Am J Respir Crit Care Med. 2013 Apr 01;187(7):680-9. [PubMed:",
+        "metadata": {
+            "section_title": "medications for maintenance of lung health. Am J Respir Crit Care Med. 2013 Apr 01;187(7):680-9. [PubMed:"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 31,
+        "content": "23540878]",
+        "metadata": {
+            "section_title": "23540878]"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 32,
+        "content": "Krause PJ, Lepore T, Sikand VK, Gadbaw J, Burke G, Telford SR, Brassard P, Pearl D, Azlanzadeh J,",
+        "metadata": {
+            "section_title": "Krause PJ, Lepore T, Sikand VK, Gadbaw J, Burke G, Telford SR, Brassard P, Pearl D, Azlanzadeh J,"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 33,
+        "content": "Christianson D, McGrath D, Spielman A. Atovaquone and azithromycin for the treatment of babesiosis. N Engl J",
+        "metadata": {
+            "section_title": "Christianson D, McGrath D, Spielman A. Atovaquone and azithromycin for the treatment of babesiosis. N Engl J"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 34,
+        "content": "Med. 2000 Nov 16;343(20):1454-8. [PubMed: 11078770]",
+        "metadata": {
+            "section_title": "Med. 2000 Nov 16;343(20):1454-8. [PubMed: 11078770]"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 35,
+        "content": "Dunne MW, Singh N, Shukla M, Valecha N, Bhattacharyya PC, Dev V, Patel K, Mohapatra MK, Lakhani J,",
+        "metadata": {
+            "section_title": "Dunne MW, Singh N, Shukla M, Valecha N, Bhattacharyya PC, Dev V, Patel K, Mohapatra MK, Lakhani J,"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 36,
+        "content": "Benner R, Lele C, Patki K. A multicenter study of azithromycin, alone and in combination with chloroquine, for",
+        "metadata": {
+            "section_title": "Benner R, Lele C, Patki K. A multicenter study of azithromycin, alone and in combination with chloroquine, for"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 37,
+        "content": "the treatment of acute uncomplicated Plasmodium falciparum malaria in India. J Infect Dis. 2005 May",
+        "metadata": {
+            "section_title": "the treatment of acute uncomplicated Plasmodium falciparum malaria in India. J Infect Dis. 2005 May"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 38,
+        "content": "15;191(10):1582-8. [PubMed: 15838784]",
+        "metadata": {
+            "section_title": "15;191(10):1582-8. [PubMed: 15838784]"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 39,
+        "content": "Shiojiri D, Kinai E, Teruya K, Kikuchi Y, Oka S. Combination of Clindamycin and Azithromycin as Alternative",
+        "metadata": {
+            "section_title": "Shiojiri D, Kinai E, Teruya K, Kikuchi Y, Oka S. Combination of Clindamycin and Azithromycin as Alternative"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 40,
+        "content": "Treatment for Toxoplasma gondii Encephalitis. Emerg Infect Dis. 2019 Apr;25(4):841-843. [PMC free article:",
+        "metadata": {
+            "section_title": "Treatment for Toxoplasma gondii Encephalitis. Emerg Infect Dis. 2019 Apr;25(4):841-843. [PMC free article:"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 41,
+        "content": "PMC6433045] [PubMed: 30882331]",
+        "metadata": {
+            "section_title": "PMC6433045] [PubMed: 30882331]"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 42,
+        "content": "Corrigendum to: Clinical Practice Guidelines by the Infectious Diseases Society of America (IDSA): 2020",
+        "metadata": {
+            "section_title": "Corrigendum to: Clinical Practice Guidelines by the Infectious Diseases Society of America (IDSA): 2020"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 43,
+        "content": "Guideline on Diagnosis and Management of Babesiosis. Clin Infect Dis. 2021 Jul 01;73(1):172-173. [PubMed:",
+        "metadata": {
+            "section_title": "Guideline on Diagnosis and Management of Babesiosis. Clin Infect Dis. 2021 Jul 01;73(1):172-173. [PubMed:"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 44,
+        "content": "33960362]",
+        "metadata": {
+            "section_title": "33960362]"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 45,
+        "content": "Krause PJ, Auwaerter PG, Bannuru RR, Branda JA, Falck-Ytter YT, Lantos PM, Lavergne V, Meissner HC,",
+        "metadata": {
+            "section_title": "Krause PJ, Auwaerter PG, Bannuru RR, Branda JA, Falck-Ytter YT, Lantos PM, Lavergne V, Meissner HC,"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 46,
+        "content": "Osani MC, Rips JG, Sood SK, Vannier E, Vaysbrot EE, Wormser GP. Clinical Practice Guidelines by the",
+        "metadata": {
+            "section_title": "Osani MC, Rips JG, Sood SK, Vannier E, Vaysbrot EE, Wormser GP. Clinical Practice Guidelines by the"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 47,
+        "content": "Infectious Diseases Society of America (IDSA): 2020 Guideline on Diagnosis and Management of Babesiosis.",
+        "metadata": {
+            "section_title": "Infectious Diseases Society of America (IDSA): 2020 Guideline on Diagnosis and Management of Babesiosis."
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 48,
+        "content": "Clin Infect Dis. 2021 Jan 27;72(2):e49-e64. [PubMed: 33252652]",
+        "metadata": {
+            "section_title": "Clin Infect Dis. 2021 Jan 27;72(2):e49-e64. [PubMed: 33252652]"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 49,
+        "content": "Gautret P, Lagier JC, Parola P, Hoang VT, Meddeb L, Mailhe M, Doudier B, Courjon J, Giordanengo V, Vieira",
+        "metadata": {
+            "section_title": "Gautret P, Lagier JC, Parola P, Hoang VT, Meddeb L, Mailhe M, Doudier B, Courjon J, Giordanengo V, Vieira"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 50,
+        "content": "VE, Tissot Dupont H, Honoré S, Colson P, Chabrière E, La Scola B, Rolain JM, Brouqui P, Raoult D.",
+        "metadata": {
+            "section_title": "VE, Tissot Dupont H, Honoré S, Colson P, Chabrière E, La Scola B, Rolain JM, Brouqui P, Raoult D."
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 51,
+        "content": "RETRACTED: Hydroxychloroquine and azithromycin as a treatment of COVID-19: results of an open-label",
+        "metadata": {
+            "section_title": "RETRACTED: Hydroxychloroquine and azithromycin as a treatment of COVID-19: results of an open-label"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 52,
+        "content": "non-randomized clinical trial. Int J Antimicrob Agents. 2020 Jul;56(1):105949. [PMC free article: PMC7102549]",
+        "metadata": {
+            "section_title": "non-randomized clinical trial. Int J Antimicrob Agents. 2020 Jul;56(1):105949. [PMC free article: PMC7102549]"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 53,
+        "content": "[PubMed: 32205204]",
+        "metadata": {
+            "section_title": "[PubMed: 32205204]"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 54,
+        "content": "Gautret P, Lagier JC, Parola P, Hoang VT, Meddeb L, Sevestre J, Mailhe M, Doudier B, Aubry C, Amrane S,",
+        "metadata": {
+            "section_title": "Gautret P, Lagier JC, Parola P, Hoang VT, Meddeb L, Sevestre J, Mailhe M, Doudier B, Aubry C, Amrane S,"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 55,
+        "content": "Seng P, Hocquart M, Eldin C, Finance J, Vieira VE, Tissot-Dupont HT, Honoré S, Stein A, Million M, Colson P,",
+        "metadata": {
+            "section_title": "Seng P, Hocquart M, Eldin C, Finance J, Vieira VE, Tissot-Dupont HT, Honoré S, Stein A, Million M, Colson P,"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 56,
+        "content": "La Scola B, Veit V, Jacquier A, Deharo JC, Drancourt M, Fournier PE, Rolain JM, Brouqui P, Raoult D. Clinical",
+        "metadata": {
+            "section_title": "La Scola B, Veit V, Jacquier A, Deharo JC, Drancourt M, Fournier PE, Rolain JM, Brouqui P, Raoult D. Clinical"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 57,
+        "content": "and microbiological effect of a combination of hydroxychloroquine and azithromycin in 80 COVID-19 patients",
+        "metadata": {
+            "section_title": "and microbiological effect of a combination of hydroxychloroquine and azithromycin in 80 COVID-19 patients"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 58,
+        "content": "with at least a six-day follow up: A pilot observational study. Travel Med Infect Dis. 2020 Mar-Apr;34:101663.",
+        "metadata": {
+            "section_title": "with at least a six-day follow up: A pilot observational study. Travel Med Infect Dis. 2020 Mar-Apr;34:101663."
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 59,
+        "content": "[PMC free article: PMC7151271] [PubMed: 32289548]6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf",
+        "metadata": {
+            "section_title": "[PMC free article: PMC7151271] [PubMed: 32289548]6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf"
+        }
+    },
+    {
+        "page_number": 9,
+        "section_number": 60,
+        "content": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 9/13",
+        "metadata": {
+            "section_title": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 9/13"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 1,
+        "content": "26.",
+        "metadata": {
+            "section_title": "26."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 2,
+        "content": "27.",
+        "metadata": {
+            "section_title": "27."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 3,
+        "content": "28.",
+        "metadata": {
+            "section_title": "28."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 4,
+        "content": "29.",
+        "metadata": {
+            "section_title": "29."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 5,
+        "content": "30.",
+        "metadata": {
+            "section_title": "30."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 6,
+        "content": "31.",
+        "metadata": {
+            "section_title": "31."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 7,
+        "content": "32.",
+        "metadata": {
+            "section_title": "32."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 8,
+        "content": "33.",
+        "metadata": {
+            "section_title": "33."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 9,
+        "content": "34.",
+        "metadata": {
+            "section_title": "34."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 10,
+        "content": "35.",
+        "metadata": {
+            "section_title": "35."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 11,
+        "content": "36.",
+        "metadata": {
+            "section_title": "36."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 12,
+        "content": "37.",
+        "metadata": {
+            "section_title": "37."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 13,
+        "content": "38.",
+        "metadata": {
+            "section_title": "38."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 14,
+        "content": "39.",
+        "metadata": {
+            "section_title": "39."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 15,
+        "content": "40.",
+        "metadata": {
+            "section_title": "40."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 16,
+        "content": "41.",
+        "metadata": {
+            "section_title": "41."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 17,
+        "content": "42.",
+        "metadata": {
+            "section_title": "42."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 18,
+        "content": "43.Arabi YM, Deeb AM, Al-Hameed F, Mandourah Y, Almekhlafi GA, Sindi AA, Al-Omari A, Shalhoub S, Mady A,",
+        "metadata": {
+            "section_title": "43.Arabi YM, Deeb AM, Al-Hameed F, Mandourah Y, Almekhlafi GA, Sindi AA, Al-Omari A, Shalhoub S, Mady A,"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 19,
+        "content": "Alraddadi B, Almotairi A, Al Khatib K, Abdulmomen A, Qushmaq I, Solaiman O, Al-Aithan AM, Al-Raddadi R,",
+        "metadata": {
+            "section_title": "Alraddadi B, Almotairi A, Al Khatib K, Abdulmomen A, Qushmaq I, Solaiman O, Al-Aithan AM, Al-Raddadi R,"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 20,
+        "content": "Ragab A, Al Harthy A, Kharaba A, Jose J, Dabbagh T, Fowler RA, Balkhy HH, Merson L, Hayden FG., Saudi Critical",
+        "metadata": {
+            "section_title": "Ragab A, Al Harthy A, Kharaba A, Jose J, Dabbagh T, Fowler RA, Balkhy HH, Merson L, Hayden FG., Saudi Critical"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 21,
+        "content": "Care Trials group. Macrolides in critically ill patients with Middle East Respiratory Syndrome. Int J Infect Dis. 2019",
+        "metadata": {
+            "section_title": "Care Trials group. Macrolides in critically ill patients with Middle East Respiratory Syndrome. Int J Infect Dis. 2019"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 22,
+        "content": "Apr;81:184-190. [PMC free article: PMC7110878] [PubMed: 30690213]",
+        "metadata": {
+            "section_title": "Apr;81:184-190. [PMC free article: PMC7110878] [PubMed: 30690213]"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 23,
+        "content": "Pinto LA, Pitrez PM, Luisi F, de Mello PP, Gerhardt M, Ferlini R, Barbosa DC, Daros I, Jones MH, Stein RT,",
+        "metadata": {
+            "section_title": "Pinto LA, Pitrez PM, Luisi F, de Mello PP, Gerhardt M, Ferlini R, Barbosa DC, Daros I, Jones MH, Stein RT,"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 24,
+        "content": "Marostica PJ. Azithromycin therapy in hospitalized infants with acute bronchiolitis is not associated with better",
+        "metadata": {
+            "section_title": "Marostica PJ. Azithromycin therapy in hospitalized infants with acute bronchiolitis is not associated with better"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 25,
+        "content": "clinical outcomes: a randomized, double-blinded, and placebo-controlled clinical trial. J Pediatr. 2012",
+        "metadata": {
+            "section_title": "clinical outcomes: a randomized, double-blinded, and placebo-controlled clinical trial. J Pediatr. 2012"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 26,
+        "content": "Dec;161(6):1104-8. [PubMed: 22748516]",
+        "metadata": {
+            "section_title": "Dec;161(6):1104-8. [PubMed: 22748516]"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 27,
+        "content": "Echeverría-Esnal D, Martin-Ontiyuelo C, Navarrete-Rouco ME, De-Antonio Cuscó M, Ferrández O, Horcajada",
+        "metadata": {
+            "section_title": "Echeverría-Esnal D, Martin-Ontiyuelo C, Navarrete-Rouco ME, De-Antonio Cuscó M, Ferrández O, Horcajada"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 28,
+        "content": "JP, Grau S. Azithromycin in the treatment of COVID-19: a review. Expert Rev Anti Infect Ther. 2021",
+        "metadata": {
+            "section_title": "JP, Grau S. Azithromycin in the treatment of COVID-19: a review. Expert Rev Anti Infect Ther. 2021"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 29,
+        "content": "Feb;19(2):147-163. [PubMed: 32853038]",
+        "metadata": {
+            "section_title": "Feb;19(2):147-163. [PubMed: 32853038]"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 30,
+        "content": "Goldman RC, Fesik SW, Doran CC. Role of protonated and neutral forms of macrolides in binding to ribosomes",
+        "metadata": {
+            "section_title": "Goldman RC, Fesik SW, Doran CC. Role of protonated and neutral forms of macrolides in binding to ribosomes"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 31,
+        "content": "from gram-positive and gram-negative bacteria. Antimicrob Agents Chemother. 1990 Mar;34(3):426-31. [PMC",
+        "metadata": {
+            "section_title": "from gram-positive and gram-negative bacteria. Antimicrob Agents Chemother. 1990 Mar;34(3):426-31. [PMC"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 32,
+        "content": "free article: PMC171609] [PubMed: 2159256]",
+        "metadata": {
+            "section_title": "free article: PMC171609] [PubMed: 2159256]"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 33,
+        "content": "Jelić D, Antolović R. From Erythromycin to Azithromycin and New Potential Ribosome-Binding Antimicrobials.",
+        "metadata": {
+            "section_title": "Jelić D, Antolović R. From Erythromycin to Azithromycin and New Potential Ribosome-Binding Antimicrobials."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 34,
+        "content": "Antibiotics (Basel). 2016 Sep 01;5(3) [PMC free article: PMC5039525] [PubMed: 27598215]",
+        "metadata": {
+            "section_title": "Antibiotics (Basel). 2016 Sep 01;5(3) [PMC free article: PMC5039525] [PubMed: 27598215]"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 35,
+        "content": "Neu HC. Clinical microbiology of azithromycin. Am J Med. 1991 Sep 12;91(3A):12S-18S. [PubMed: 1656736]",
+        "metadata": {
+            "section_title": "Neu HC. Clinical microbiology of azithromycin. Am J Med. 1991 Sep 12;91(3A):12S-18S. [PubMed: 1656736]"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 36,
+        "content": "Sidhu AB, Sun Q, Nkrumah LJ, Dunne MW, Sacchettini JC, Fidock DA. In vitro efficacy, resistance selection,",
+        "metadata": {
+            "section_title": "Sidhu AB, Sun Q, Nkrumah LJ, Dunne MW, Sacchettini JC, Fidock DA. In vitro efficacy, resistance selection,"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 37,
+        "content": "and structural modeling studies implicate the malarial parasite apicoplast as the target of azithromycin. J Biol",
+        "metadata": {
+            "section_title": "and structural modeling studies implicate the malarial parasite apicoplast as the target of azithromycin. J Biol"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 38,
+        "content": "Chem. 2007 Jan 26;282(4):2494-504. [PubMed: 17110371]",
+        "metadata": {
+            "section_title": "Chem. 2007 Jan 26;282(4):2494-504. [PubMed: 17110371]"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 39,
+        "content": "Biddau M, Sheiner L. Targeting the apicoplast in malaria. Biochem Soc Trans. 2019 Aug 30;47(4):973-983.",
+        "metadata": {
+            "section_title": "Biddau M, Sheiner L. Targeting the apicoplast in malaria. Biochem Soc Trans. 2019 Aug 30;47(4):973-983."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 40,
+        "content": "[PubMed: 31383817]",
+        "metadata": {
+            "section_title": "[PubMed: 31383817]"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 41,
+        "content": "Verleden GM, Vanaudenaerde BM, Dupont LJ, Van Raemdonck DE. Azithromycin reduces airway neutrophilia",
+        "metadata": {
+            "section_title": "Verleden GM, Vanaudenaerde BM, Dupont LJ, Van Raemdonck DE. Azithromycin reduces airway neutrophilia"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 42,
+        "content": "and interleukin-8 in patients with bronchiolitis obliterans syndrome. Am J Respir Crit Care Med. 2006 Sep",
+        "metadata": {
+            "section_title": "and interleukin-8 in patients with bronchiolitis obliterans syndrome. Am J Respir Crit Care Med. 2006 Sep"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 43,
+        "content": "01;174(5):566-70. [PubMed: 16741151]",
+        "metadata": {
+            "section_title": "01;174(5):566-70. [PubMed: 16741151]"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 44,
+        "content": "Tarique AA, Tuladhar N, Kelk D, Begum N, Lucas RM, Luo L, Stow JL, Wainwright CE, Bell SC, Sly PD,",
+        "metadata": {
+            "section_title": "Tarique AA, Tuladhar N, Kelk D, Begum N, Lucas RM, Luo L, Stow JL, Wainwright CE, Bell SC, Sly PD,"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 45,
+        "content": "Fantino E. Azithromycin Augments Bacterial Uptake and Anti-Inflammatory Macrophage Polarization in Cystic",
+        "metadata": {
+            "section_title": "Fantino E. Azithromycin Augments Bacterial Uptake and Anti-Inflammatory Macrophage Polarization in Cystic"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 46,
+        "content": "Fibrosis. Cells. 2024 Jan 16;13(2) [PMC free article: PMC10813867] [PubMed: 38247856]",
+        "metadata": {
+            "section_title": "Fibrosis. Cells. 2024 Jan 16;13(2) [PMC free article: PMC10813867] [PubMed: 38247856]"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 47,
+        "content": "Menzel M, Akbarshahi H, Bjermer L, Uller L. Azithromycin induces anti-viral effects in cultured bronchial",
+        "metadata": {
+            "section_title": "Menzel M, Akbarshahi H, Bjermer L, Uller L. Azithromycin induces anti-viral effects in cultured bronchial"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 48,
+        "content": "epithelial cells from COPD patients. Sci Rep. 2016 Jun 28;6:28698. [PMC free article: PMC4923851] [PubMed:",
+        "metadata": {
+            "section_title": "epithelial cells from COPD patients. Sci Rep. 2016 Jun 28;6:28698. [PMC free article: PMC4923851] [PubMed:"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 49,
+        "content": "27350308]",
+        "metadata": {
+            "section_title": "27350308]"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 50,
+        "content": "Heidary M, Ebrahimi Samangani A, Kargari A, Kiani Nejad A, Yashmi I, Motahar M, Taki E, Khoshnood S.",
+        "metadata": {
+            "section_title": "Heidary M, Ebrahimi Samangani A, Kargari A, Kiani Nejad A, Yashmi I, Motahar M, Taki E, Khoshnood S."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 51,
+        "content": "Mechanism of action, resistance, synergism, and clinical implications of azithromycin. J Clin Lab Anal. 2022",
+        "metadata": {
+            "section_title": "Mechanism of action, resistance, synergism, and clinical implications of azithromycin. J Clin Lab Anal. 2022"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 52,
+        "content": "Jun;36(6):e24427. [PMC free article: PMC9169196] [PubMed: 35447019]",
+        "metadata": {
+            "section_title": "Jun;36(6):e24427. [PMC free article: PMC9169196] [PubMed: 35447019]"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 53,
+        "content": "Höffler D, Koeppe P, Paeske B. Pharmacokinetics of azithromycin in normal and impaired renal function.",
+        "metadata": {
+            "section_title": "Höffler D, Koeppe P, Paeske B. Pharmacokinetics of azithromycin in normal and impaired renal function."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 54,
+        "content": "Infection. 1995 Nov-Dec;23(6):356-61. [PubMed: 8655206]",
+        "metadata": {
+            "section_title": "Infection. 1995 Nov-Dec;23(6):356-61. [PubMed: 8655206]"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 55,
+        "content": "Drew RH, Gallis HA. Azithromycin--spectrum of activity, pharmacokinetics, and clinical applications.",
+        "metadata": {
+            "section_title": "Drew RH, Gallis HA. Azithromycin--spectrum of activity, pharmacokinetics, and clinical applications."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 56,
+        "content": "Pharmacotherapy. 1992;12(3):161-73. [PubMed: 1319048]",
+        "metadata": {
+            "section_title": "Pharmacotherapy. 1992;12(3):161-73. [PubMed: 1319048]"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 57,
+        "content": "Vaughn VM, Dickson RP, Horowitz JK, Flanders SA. Community-Acquired Pneumonia: A Review. JAMA.",
+        "metadata": {
+            "section_title": "Vaughn VM, Dickson RP, Horowitz JK, Flanders SA. Community-Acquired Pneumonia: A Review. JAMA."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 58,
+        "content": "2024 Oct 15;332(15):1282-1295. [PubMed: 39283629]",
+        "metadata": {
+            "section_title": "2024 Oct 15;332(15):1282-1295. [PubMed: 39283629]"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 59,
+        "content": "Committee on Practice Bulletins-Obstetrics. ACOG Practice Bulletin No. 199: Use of Prophylactic Antibiotics in",
+        "metadata": {
+            "section_title": "Committee on Practice Bulletins-Obstetrics. ACOG Practice Bulletin No. 199: Use of Prophylactic Antibiotics in"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 60,
+        "content": "Labor and Delivery. Obstet Gynecol. 2018 Sep;132(3):e103-e119. [PubMed: 30134425]",
+        "metadata": {
+            "section_title": "Labor and Delivery. Obstet Gynecol. 2018 Sep;132(3):e103-e119. [PubMed: 30134425]"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 61,
+        "content": "ACOG Practice Bulletin No. 135: Second-trimester abortion. Obstet Gynecol. 2013 Jun;121(6):1394-1406.",
+        "metadata": {
+            "section_title": "ACOG Practice Bulletin No. 135: Second-trimester abortion. Obstet Gynecol. 2013 Jun;121(6):1394-1406."
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 62,
+        "content": "[PubMed: 23812485]",
+        "metadata": {
+            "section_title": "[PubMed: 23812485]"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 63,
+        "content": "Prelabor Rupture of Membranes: ACOG Practice Bulletin, Number 217. Obstet Gynecol. 2020 Mar;135(3):e80-",
+        "metadata": {
+            "section_title": "Prelabor Rupture of Membranes: ACOG Practice Bulletin, Number 217. Obstet Gynecol. 2020 Mar;135(3):e80-"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 64,
+        "content": "e97. [PubMed: 32080050]6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf",
+        "metadata": {
+            "section_title": "e97. [PubMed: 32080050]6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf"
+        }
+    },
+    {
+        "page_number": 10,
+        "section_number": 65,
+        "content": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 10/13",
+        "metadata": {
+            "section_title": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 10/13"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 1,
+        "content": "44.",
+        "metadata": {
+            "section_title": "44."
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 2,
+        "content": "45.",
+        "metadata": {
+            "section_title": "45."
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 3,
+        "content": "46.",
+        "metadata": {
+            "section_title": "46."
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 4,
+        "content": "47.",
+        "metadata": {
+            "section_title": "47."
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 5,
+        "content": "48.",
+        "metadata": {
+            "section_title": "48."
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 6,
+        "content": "49.",
+        "metadata": {
+            "section_title": "49."
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 7,
+        "content": "50.",
+        "metadata": {
+            "section_title": "50."
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 8,
+        "content": "51.",
+        "metadata": {
+            "section_title": "51."
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 9,
+        "content": "52.",
+        "metadata": {
+            "section_title": "52."
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 10,
+        "content": "53.",
+        "metadata": {
+            "section_title": "53."
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 11,
+        "content": "54.",
+        "metadata": {
+            "section_title": "54."
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 12,
+        "content": "55.",
+        "metadata": {
+            "section_title": "55."
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 13,
+        "content": "56.",
+        "metadata": {
+            "section_title": "56."
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 14,
+        "content": "57.",
+        "metadata": {
+            "section_title": "57."
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 15,
+        "content": "58.",
+        "metadata": {
+            "section_title": "58."
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 16,
+        "content": "59.",
+        "metadata": {
+            "section_title": "59."
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 17,
+        "content": "60.Drugs and Lactation Database (LactMed®) [Internet]. National Institute of Child Health and Human Development;",
+        "metadata": {
+            "section_title": "60.Drugs and Lactation Database (LactMed®) [Internet]. National Institute of Child Health and Human Development;"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 18,
+        "content": "Bethesda (MD): Aug 15, 2024. Azithromycin. [PubMed: 30000259]",
+        "metadata": {
+            "section_title": "Bethesda (MD): Aug 15, 2024. Azithromycin. [PubMed: 30000259]"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 19,
+        "content": "Ioannidis JP, Contopoulos-Ioannidis DG, Chew P, Lau J. Meta-analysis of randomized controlled trials on the",
+        "metadata": {
+            "section_title": "Ioannidis JP, Contopoulos-Ioannidis DG, Chew P, Lau J. Meta-analysis of randomized controlled trials on the"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 20,
+        "content": "comparative efficacy and safety of azithromycin against other antibiotics for upper respiratory tract infections. J",
+        "metadata": {
+            "section_title": "comparative efficacy and safety of azithromycin against other antibiotics for upper respiratory tract infections. J"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 21,
+        "content": "Antimicrob Chemother. 2001 Nov;48(5):677-89. [PubMed: 11679557]",
+        "metadata": {
+            "section_title": "Antimicrob Chemother. 2001 Nov;48(5):677-89. [PubMed: 11679557]"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 22,
+        "content": "Ray WA, Murray KT, Hall K, Arbogast PG, Stein CM. Azithromycin and the risk of cardiovascular death. N",
+        "metadata": {
+            "section_title": "Ray WA, Murray KT, Hall K, Arbogast PG, Stein CM. Azithromycin and the risk of cardiovascular death. N"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 23,
+        "content": "Engl J Med. 2012 May 17;366(20):1881-90. [PMC free article: PMC3374857] [PubMed: 22591294]",
+        "metadata": {
+            "section_title": "Engl J Med. 2012 May 17;366(20):1881-90. [PMC free article: PMC3374857] [PubMed: 22591294]"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 24,
+        "content": "Svanström H, Pasternak B, Hviid A. Use of azithromycin and death from cardiovascular causes. N Engl J Med.",
+        "metadata": {
+            "section_title": "Svanström H, Pasternak B, Hviid A. Use of azithromycin and death from cardiovascular causes. N Engl J Med."
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 25,
+        "content": "2013 May 02;368(18):1704-12. [PubMed: 23635050]",
+        "metadata": {
+            "section_title": "2013 May 02;368(18):1704-12. [PubMed: 23635050]"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 26,
+        "content": "Martinez MA, Vuppalanchi R, Fontana RJ, Stolz A, Kleiner DE, Hayashi PH, Gu J, Hoofnagle JH, Chalasani N.",
+        "metadata": {
+            "section_title": "Martinez MA, Vuppalanchi R, Fontana RJ, Stolz A, Kleiner DE, Hayashi PH, Gu J, Hoofnagle JH, Chalasani N."
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 27,
+        "content": "Clinical and histologic features of azithromycin-induced liver injury. Clin Gastroenterol Hepatol. 2015",
+        "metadata": {
+            "section_title": "Clinical and histologic features of azithromycin-induced liver injury. Clin Gastroenterol Hepatol. 2015"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 28,
+        "content": "Feb;13(2):369-376.e3. [PMC free article: PMC4321982] [PubMed: 25111234]",
+        "metadata": {
+            "section_title": "Feb;13(2):369-376.e3. [PMC free article: PMC4321982] [PubMed: 25111234]"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 29,
+        "content": "Barboza JL, Okun MS, Moshiree B. The treatment of gastroparesis, constipation and small intestinal bacterial",
+        "metadata": {
+            "section_title": "Barboza JL, Okun MS, Moshiree B. The treatment of gastroparesis, constipation and small intestinal bacterial"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 30,
+        "content": "overgrowth syndrome in patients with Parkinson's disease. Expert Opin Pharmacother. 2015;16(16):2449-64.",
+        "metadata": {
+            "section_title": "overgrowth syndrome in patients with Parkinson's disease. Expert Opin Pharmacother. 2015;16(16):2449-64."
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 31,
+        "content": "[PubMed: 26374094]",
+        "metadata": {
+            "section_title": "[PubMed: 26374094]"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 32,
+        "content": "Nappe TM, Goren-Garcia SL, Jacoby JL. Stevens-Johnson syndrome after treatment with azithromycin: an",
+        "metadata": {
+            "section_title": "Nappe TM, Goren-Garcia SL, Jacoby JL. Stevens-Johnson syndrome after treatment with azithromycin: an"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 33,
+        "content": "uncommon culprit. Am J Emerg Med. 2016 Mar;34(3):676.e1-3. [PubMed: 26194400]",
+        "metadata": {
+            "section_title": "uncommon culprit. Am J Emerg Med. 2016 Mar;34(3):676.e1-3. [PubMed: 26194400]"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 34,
+        "content": "Mori F, Pecorari L, Pantano S, Rossi ME, Pucci N, De Martino M, Novembre E. Azithromycin anaphylaxis in",
+        "metadata": {
+            "section_title": "Mori F, Pecorari L, Pantano S, Rossi ME, Pucci N, De Martino M, Novembre E. Azithromycin anaphylaxis in"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 35,
+        "content": "children. Int J Immunopathol Pharmacol. 2014 Jan-Mar;27(1):121-6. [PubMed: 24674687]",
+        "metadata": {
+            "section_title": "children. Int J Immunopathol Pharmacol. 2014 Jan-Mar;27(1):121-6. [PubMed: 24674687]"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 36,
+        "content": "Dial S, Kezouh A, Dascal A, Barkun A, Suissa S. Patterns of antibiotic use and risk of hospital admission",
+        "metadata": {
+            "section_title": "Dial S, Kezouh A, Dascal A, Barkun A, Suissa S. Patterns of antibiotic use and risk of hospital admission"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 37,
+        "content": "because of Clostridium difficile infection. CMAJ. 2008 Oct 07;179(8):767-72. [PMC free article: PMC2553880]",
+        "metadata": {
+            "section_title": "because of Clostridium difficile infection. CMAJ. 2008 Oct 07;179(8):767-72. [PMC free article: PMC2553880]"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 38,
+        "content": "[PubMed: 18838451]",
+        "metadata": {
+            "section_title": "[PubMed: 18838451]"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 39,
+        "content": "Kuntz JL, Chrischilles EA, Pendergast JF, Herwaldt LA, Polgreen PM. Incidence of and risk factors for",
+        "metadata": {
+            "section_title": "Kuntz JL, Chrischilles EA, Pendergast JF, Herwaldt LA, Polgreen PM. Incidence of and risk factors for"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 40,
+        "content": "community-associated Clostridium difficile infection: a nested case-control study. BMC Infect Dis. 2011 Jul",
+        "metadata": {
+            "section_title": "community-associated Clostridium difficile infection: a nested case-control study. BMC Infect Dis. 2011 Jul"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 41,
+        "content": "15;11:194. [PMC free article: PMC3154181] [PubMed: 21762504]",
+        "metadata": {
+            "section_title": "15;11:194. [PMC free article: PMC3154181] [PubMed: 21762504]"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 42,
+        "content": "Deshpande A, Pasupuleti V, Thota P, Pant C, Rolston DD, Sferra TJ, Hernandez AV, Donskey CJ. Community-",
+        "metadata": {
+            "section_title": "Deshpande A, Pasupuleti V, Thota P, Pant C, Rolston DD, Sferra TJ, Hernandez AV, Donskey CJ. Community-"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 43,
+        "content": "associated Clostridium difficile infection and antibiotics: a meta-analysis. J Antimicrob Chemother. 2013",
+        "metadata": {
+            "section_title": "associated Clostridium difficile infection and antibiotics: a meta-analysis. J Antimicrob Chemother. 2013"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 44,
+        "content": "Sep;68(9):1951-61. [PubMed: 23620467]",
+        "metadata": {
+            "section_title": "Sep;68(9):1951-61. [PubMed: 23620467]"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 45,
+        "content": "Zaroff JG, Cheetham TC, Palmetto N, Almers L, Quesenberry C, Schneider J, Gatto N, Corley DA. Association",
+        "metadata": {
+            "section_title": "Zaroff JG, Cheetham TC, Palmetto N, Almers L, Quesenberry C, Schneider J, Gatto N, Corley DA. Association"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 46,
+        "content": "of Azithromycin Use With Cardiovascular Mortality. JAMA Netw Open. 2020 Jun 01;3(6):e208199. [PMC free",
+        "metadata": {
+            "section_title": "of Azithromycin Use With Cardiovascular Mortality. JAMA Netw Open. 2020 Jun 01;3(6):e208199. [PMC free"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 47,
+        "content": "article: PMC7301226] [PubMed: 32585019]",
+        "metadata": {
+            "section_title": "article: PMC7301226] [PubMed: 32585019]"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 48,
+        "content": "Westphal JF. Macrolide - induced clinically relevant drug interactions with cytochrome P-450A (CYP) 3A4: an",
+        "metadata": {
+            "section_title": "Westphal JF. Macrolide - induced clinically relevant drug interactions with cytochrome P-450A (CYP) 3A4: an"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 49,
+        "content": "update focused on clarithromycin, azithromycin and dirithromycin. Br J Clin Pharmacol. 2000 Oct;50(4):285-95.",
+        "metadata": {
+            "section_title": "update focused on clarithromycin, azithromycin and dirithromycin. Br J Clin Pharmacol. 2000 Oct;50(4):285-95."
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 50,
+        "content": "[PMC free article: PMC2015000] [PubMed: 11012550]",
+        "metadata": {
+            "section_title": "[PMC free article: PMC2015000] [PubMed: 11012550]"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 51,
+        "content": "Flockhart DA, Drici MD, Kerbusch T, Soukhova N, Richard E, Pearle PL, Mahal SK, Babb VJ. Studies on the",
+        "metadata": {
+            "section_title": "Flockhart DA, Drici MD, Kerbusch T, Soukhova N, Richard E, Pearle PL, Mahal SK, Babb VJ. Studies on the"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 52,
+        "content": "mechanism of a fatal clarithromycin-pimozide interaction in a patient with Tourette syndrome. J Clin",
+        "metadata": {
+            "section_title": "mechanism of a fatal clarithromycin-pimozide interaction in a patient with Tourette syndrome. J Clin"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 53,
+        "content": "Psychopharmacol. 2000 Jun;20(3):317-24. [PubMed: 10831018]",
+        "metadata": {
+            "section_title": "Psychopharmacol. 2000 Jun;20(3):317-24. [PubMed: 10831018]"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 54,
+        "content": "Bouquié R, Deslandes G, Renaud C, Dailly E, Haloun A, Jolliet P. Colchicine-induced rhabdomyolysis in a",
+        "metadata": {
+            "section_title": "Bouquié R, Deslandes G, Renaud C, Dailly E, Haloun A, Jolliet P. Colchicine-induced rhabdomyolysis in a"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 55,
+        "content": "heart/lung transplant patient with concurrent use of cyclosporin, pravastatin, and azithromycin. J Clin",
+        "metadata": {
+            "section_title": "heart/lung transplant patient with concurrent use of cyclosporin, pravastatin, and azithromycin. J Clin"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 56,
+        "content": "Rheumatol. 2011 Jan;17(1):28-30. [PubMed: 21169852]",
+        "metadata": {
+            "section_title": "Rheumatol. 2011 Jan;17(1):28-30. [PubMed: 21169852]"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 57,
+        "content": "Terkeltaub RA, Furst DE, Digiacinto JL, Kook KA, Davis MW. Novel evidence-based colchicine dose-reduction",
+        "metadata": {
+            "section_title": "Terkeltaub RA, Furst DE, Digiacinto JL, Kook KA, Davis MW. Novel evidence-based colchicine dose-reduction"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 58,
+        "content": "algorithm to predict and prevent colchicine toxicity in the presence of cytochrome P450 3A4/P-glycoprotein",
+        "metadata": {
+            "section_title": "algorithm to predict and prevent colchicine toxicity in the presence of cytochrome P450 3A4/P-glycoprotein"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 59,
+        "content": "inhibitors. Arthritis Rheum. 2011 Aug;63(8):2226-37. [PubMed: 21480191]",
+        "metadata": {
+            "section_title": "inhibitors. Arthritis Rheum. 2011 Aug;63(8):2226-37. [PubMed: 21480191]"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 60,
+        "content": "Aubert C, Culty T, Zidane M, Bigot P, Lebdai S. Antibiotic therapy impact on intravesical BCG therapy efficacy",
+        "metadata": {
+            "section_title": "Aubert C, Culty T, Zidane M, Bigot P, Lebdai S. Antibiotic therapy impact on intravesical BCG therapy efficacy"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 61,
+        "content": "for high-risk localized bladder cancer treatment. Front Oncol. 2023;13:1240378. [PMC free article:",
+        "metadata": {
+            "section_title": "for high-risk localized bladder cancer treatment. Front Oncol. 2023;13:1240378. [PMC free article:"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 62,
+        "content": "PMC10957779] [PubMed: 38525411]",
+        "metadata": {
+            "section_title": "PMC10957779] [PubMed: 38525411]"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 63,
+        "content": "Bergeron A, Chevret S, Granata A, Chevallier P, Vincent L, Huynh A, Tabrizi R, Labussiere-Wallet H, Bernard",
+        "metadata": {
+            "section_title": "Bergeron A, Chevret S, Granata A, Chevallier P, Vincent L, Huynh A, Tabrizi R, Labussiere-Wallet H, Bernard"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 64,
+        "content": "M, Chantepie S, Bay JO, Thiebaut-Bertrand A, Thepot S, Contentin N, Fornecker LM, Maillard N, Risso K,6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf",
+        "metadata": {
+            "section_title": "M, Chantepie S, Bay JO, Thiebaut-Bertrand A, Thepot S, Contentin N, Fornecker LM, Maillard N, Risso K,6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf"
+        }
+    },
+    {
+        "page_number": 11,
+        "section_number": 65,
+        "content": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 11/13",
+        "metadata": {
+            "section_title": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 11/13"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 1,
+        "content": "61.",
+        "metadata": {
+            "section_title": "61."
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 2,
+        "content": "62.",
+        "metadata": {
+            "section_title": "62."
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 3,
+        "content": "63.",
+        "metadata": {
+            "section_title": "63."
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 4,
+        "content": "64.",
+        "metadata": {
+            "section_title": "64."
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 5,
+        "content": "65.",
+        "metadata": {
+            "section_title": "65."
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 6,
+        "content": "66.",
+        "metadata": {
+            "section_title": "66."
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 7,
+        "content": "67.",
+        "metadata": {
+            "section_title": "67."
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 8,
+        "content": "68.",
+        "metadata": {
+            "section_title": "68."
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 9,
+        "content": "69.",
+        "metadata": {
+            "section_title": "69."
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 10,
+        "content": "70.",
+        "metadata": {
+            "section_title": "70."
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 11,
+        "content": "71.",
+        "metadata": {
+            "section_title": "71."
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 12,
+        "content": "72.",
+        "metadata": {
+            "section_title": "72."
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 13,
+        "content": "73.",
+        "metadata": {
+            "section_title": "73."
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 14,
+        "content": "74.Berceanu A, Blaise D, Peffault de La Tour R, Chien JW, Coiteux V, Socié G., ALLOZITHRO Study Investigators.",
+        "metadata": {
+            "section_title": "74.Berceanu A, Blaise D, Peffault de La Tour R, Chien JW, Coiteux V, Socié G., ALLOZITHRO Study Investigators."
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 15,
+        "content": "Effect of Azithromycin on Airflow Decline-Free Survival After Allogeneic Hematopoietic Stem Cell Transplant: The",
+        "metadata": {
+            "section_title": "Effect of Azithromycin on Airflow Decline-Free Survival After Allogeneic Hematopoietic Stem Cell Transplant: The"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 16,
+        "content": "ALLOZITHRO Randomized Clinical Trial. JAMA. 2017 Aug 08;318(6):557-566. [PMC free article: PMC5817485]",
+        "metadata": {
+            "section_title": "ALLOZITHRO Randomized Clinical Trial. JAMA. 2017 Aug 08;318(6):557-566. [PMC free article: PMC5817485]"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 17,
+        "content": "[PubMed: 28787506]",
+        "metadata": {
+            "section_title": "[PubMed: 28787506]"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 18,
+        "content": "Meyers RS, Thackray J, Matson KL, McPherson C, Lubsch L, Hellinga RC, Hoff DS. Key Potentially",
+        "metadata": {
+            "section_title": "Meyers RS, Thackray J, Matson KL, McPherson C, Lubsch L, Hellinga RC, Hoff DS. Key Potentially"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 19,
+        "content": "Inappropriate Drugs in Pediatrics: The KIDs List. J Pediatr Pharmacol Ther. 2020;25(3):175-191. [PMC free",
+        "metadata": {
+            "section_title": "Inappropriate Drugs in Pediatrics: The KIDs List. J Pediatr Pharmacol Ther. 2020;25(3):175-191. [PMC free"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 20,
+        "content": "article: PMC7134587] [PubMed: 32265601]",
+        "metadata": {
+            "section_title": "article: PMC7134587] [PubMed: 32265601]"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 21,
+        "content": "Brown BA, Griffith DE, Girard W, Levin J, Wallace RJ. Relationship of adverse events to serum drug levels in",
+        "metadata": {
+            "section_title": "Brown BA, Griffith DE, Girard W, Levin J, Wallace RJ. Relationship of adverse events to serum drug levels in"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 22,
+        "content": "patients receiving high-dose azithromycin for mycobacterial lung disease. Clin Infect Dis. 1997 May;24(5):958-",
+        "metadata": {
+            "section_title": "patients receiving high-dose azithromycin for mycobacterial lung disease. Clin Infect Dis. 1997 May;24(5):958-"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 23,
+        "content": "64. [PubMed: 9142801]",
+        "metadata": {
+            "section_title": "64. [PubMed: 9142801]"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 24,
+        "content": "Koletar SL, Berry AJ, Cynamon MH, Jacobson J, Currier JS, MacGregor RR, Dunne MW, Williams DJ.",
+        "metadata": {
+            "section_title": "Koletar SL, Berry AJ, Cynamon MH, Jacobson J, Currier JS, MacGregor RR, Dunne MW, Williams DJ."
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 25,
+        "content": "Azithromycin as treatment for disseminated Mycobacterium avium complex in AIDS patients. Antimicrob",
+        "metadata": {
+            "section_title": "Azithromycin as treatment for disseminated Mycobacterium avium complex in AIDS patients. Antimicrob"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 26,
+        "content": "Agents Chemother. 1999 Dec;43(12):2869-72. [PMC free article: PMC89578] [PubMed: 10582873]",
+        "metadata": {
+            "section_title": "Agents Chemother. 1999 Dec;43(12):2869-72. [PMC free article: PMC89578] [PubMed: 10582873]"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 27,
+        "content": "Milberg P, Eckardt L, Bruns HJ, Biertz J, Ramtin S, Reinsch N, Fleischer D, Kirchhof P, Fabritz L, Breithardt G,",
+        "metadata": {
+            "section_title": "Milberg P, Eckardt L, Bruns HJ, Biertz J, Ramtin S, Reinsch N, Fleischer D, Kirchhof P, Fabritz L, Breithardt G,"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 28,
+        "content": "Haverkamp W. Divergent proarrhythmic potential of macrolide antibiotics despite similar QT prolongation: fast",
+        "metadata": {
+            "section_title": "Haverkamp W. Divergent proarrhythmic potential of macrolide antibiotics despite similar QT prolongation: fast"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 29,
+        "content": "phase 3 repolarization prevents early afterdepolarizations and torsade de pointes. J Pharmacol Exp Ther. 2002",
+        "metadata": {
+            "section_title": "phase 3 repolarization prevents early afterdepolarizations and torsade de pointes. J Pharmacol Exp Ther. 2002"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 30,
+        "content": "Oct;303(1):218-25. [PubMed: 12235254]",
+        "metadata": {
+            "section_title": "Oct;303(1):218-25. [PubMed: 12235254]"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 31,
+        "content": "Hoofnagle JH, Björnsson ES. Drug-Induced Liver Injury - Types and Phenotypes. N Engl J Med. 2019 Jul",
+        "metadata": {
+            "section_title": "Hoofnagle JH, Björnsson ES. Drug-Induced Liver Injury - Types and Phenotypes. N Engl J Med. 2019 Jul"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 32,
+        "content": "18;381(3):264-273. [PubMed: 31314970]",
+        "metadata": {
+            "section_title": "18;381(3):264-273. [PubMed: 31314970]"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 33,
+        "content": "Fleming-Dutra KE, Demirjian A, Bartoces M, Roberts RM, Taylor TH, Hicks LA. Variations in Antibiotic and",
+        "metadata": {
+            "section_title": "Fleming-Dutra KE, Demirjian A, Bartoces M, Roberts RM, Taylor TH, Hicks LA. Variations in Antibiotic and"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 34,
+        "content": "Azithromycin Prescribing for Children by Geography and Specialty-United States, 2013. Pediatr Infect Dis J.",
+        "metadata": {
+            "section_title": "Azithromycin Prescribing for Children by Geography and Specialty-United States, 2013. Pediatr Infect Dis J."
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 35,
+        "content": "2018 Jan;37(1):52-58. [PMC free article: PMC6622452] [PubMed: 28746259]",
+        "metadata": {
+            "section_title": "2018 Jan;37(1):52-58. [PMC free article: PMC6622452] [PubMed: 28746259]"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 36,
+        "content": "Chua KP, Fischer MA, Linder JA. Appropriateness of outpatient antibiotic prescribing among privately insured",
+        "metadata": {
+            "section_title": "Chua KP, Fischer MA, Linder JA. Appropriateness of outpatient antibiotic prescribing among privately insured"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 37,
+        "content": "US patients: ICD-10-CM based cross sectional study. BMJ. 2019 Jan 16;364:k5092. [PMC free article:",
+        "metadata": {
+            "section_title": "US patients: ICD-10-CM based cross sectional study. BMJ. 2019 Jan 16;364:k5092. [PMC free article:"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 38,
+        "content": "PMC6334180] [PubMed: 30651273]",
+        "metadata": {
+            "section_title": "PMC6334180] [PubMed: 30651273]"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 39,
+        "content": "Shively NR, Buehrle DJ, Clancy CJ, Decker BK. Prevalence of Inappropriate Antibiotic Prescribing in Primary",
+        "metadata": {
+            "section_title": "Shively NR, Buehrle DJ, Clancy CJ, Decker BK. Prevalence of Inappropriate Antibiotic Prescribing in Primary"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 40,
+        "content": "Care Clinics within a Veterans Affairs Health Care System. Antimicrob Agents Chemother. 2018 Aug;62(8)",
+        "metadata": {
+            "section_title": "Care Clinics within a Veterans Affairs Health Care System. Antimicrob Agents Chemother. 2018 Aug;62(8)"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 41,
+        "content": "[PMC free article: PMC6105840] [PubMed: 29967028]",
+        "metadata": {
+            "section_title": "[PMC free article: PMC6105840] [PubMed: 29967028]"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 42,
+        "content": "White AT, Clark CM, Sellick JA, Mergenhagen KA. Antibiotic stewardship targets in the outpatient setting. Am J",
+        "metadata": {
+            "section_title": "White AT, Clark CM, Sellick JA, Mergenhagen KA. Antibiotic stewardship targets in the outpatient setting. Am J"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 43,
+        "content": "Infect Control. 2019 Aug;47(8):858-863. [PubMed: 30862373]",
+        "metadata": {
+            "section_title": "Infect Control. 2019 Aug;47(8):858-863. [PubMed: 30862373]"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 44,
+        "content": "Havers FP, Hicks LA, Chung JR, Gaglani M, Murthy K, Zimmerman RK, Jackson LA, Petrie JG, McLean HQ,",
+        "metadata": {
+            "section_title": "Havers FP, Hicks LA, Chung JR, Gaglani M, Murthy K, Zimmerman RK, Jackson LA, Petrie JG, McLean HQ,"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 45,
+        "content": "Nowalk MP, Jackson ML, Monto AS, Belongia EA, Flannery B, Fry AM. Outpatient Antibiotic Prescribing for",
+        "metadata": {
+            "section_title": "Nowalk MP, Jackson ML, Monto AS, Belongia EA, Flannery B, Fry AM. Outpatient Antibiotic Prescribing for"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 46,
+        "content": "Acute Respiratory Infections During Influenza Seasons. JAMA Netw Open. 2018 Jun 01;1(2):e180243. [PMC",
+        "metadata": {
+            "section_title": "Acute Respiratory Infections During Influenza Seasons. JAMA Netw Open. 2018 Jun 01;1(2):e180243. [PMC"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 47,
+        "content": "free article: PMC6324415] [PubMed: 30646067]",
+        "metadata": {
+            "section_title": "free article: PMC6324415] [PubMed: 30646067]"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 48,
+        "content": "Critchley IA, Jacobs MR, Brown SD, Traczewski MM, Tillotson GS, Janjic N. Prevalence of serotype 19A",
+        "metadata": {
+            "section_title": "Critchley IA, Jacobs MR, Brown SD, Traczewski MM, Tillotson GS, Janjic N. Prevalence of serotype 19A"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 49,
+        "content": "Streptococcus pneumoniae among isolates from U.S. children in 2005-2006 and activity of faropenem.",
+        "metadata": {
+            "section_title": "Streptococcus pneumoniae among isolates from U.S. children in 2005-2006 and activity of faropenem."
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 50,
+        "content": "Antimicrob Agents Chemother. 2008 Jul;52(7):2639-43. [PMC free article: PMC2443873] [PubMed: 18443117]",
+        "metadata": {
+            "section_title": "Antimicrob Agents Chemother. 2008 Jul;52(7):2639-43. [PMC free article: PMC2443873] [PubMed: 18443117]"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 51,
+        "content": "Karlowsky JA, Thornsberry C, Critchley IA, Jones ME, Evangelista AT, Noel GJ, Sahm DF. Susceptibilities to",
+        "metadata": {
+            "section_title": "Karlowsky JA, Thornsberry C, Critchley IA, Jones ME, Evangelista AT, Noel GJ, Sahm DF. Susceptibilities to"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 52,
+        "content": "levofloxacin in Streptococcus pneumoniae, Haemophilus influenzae, and Moraxella catarrhalis clinical isolates",
+        "metadata": {
+            "section_title": "levofloxacin in Streptococcus pneumoniae, Haemophilus influenzae, and Moraxella catarrhalis clinical isolates"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 53,
+        "content": "from children: results from 2000-2001 and 2001-2002 TRUST studies in the United States. Antimicrob Agents",
+        "metadata": {
+            "section_title": "from children: results from 2000-2001 and 2001-2002 TRUST studies in the United States. Antimicrob Agents"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 54,
+        "content": "Chemother. 2003 Jun;47(6):1790-7. [PMC free article: PMC155851] [PubMed: 12760850]",
+        "metadata": {
+            "section_title": "Chemother. 2003 Jun;47(6):1790-7. [PMC free article: PMC155851] [PubMed: 12760850]"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 55,
+        "content": "Gerber JS, Ross RK, Bryan M, Localio AR, Szymczak JE, Wasserman R, Barkman D, Odeniyi F, Conaboy K,",
+        "metadata": {
+            "section_title": "Gerber JS, Ross RK, Bryan M, Localio AR, Szymczak JE, Wasserman R, Barkman D, Odeniyi F, Conaboy K,"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 56,
+        "content": "Bell L, Zaoutis TE, Fiks AG. Association of Broad- vs Narrow-Spectrum Antibiotics With Treatment Failure,",
+        "metadata": {
+            "section_title": "Bell L, Zaoutis TE, Fiks AG. Association of Broad- vs Narrow-Spectrum Antibiotics With Treatment Failure,"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 57,
+        "content": "Adverse Events, and Quality of Life in Children With Acute Respiratory Tract Infections. JAMA. 2017 Dec",
+        "metadata": {
+            "section_title": "Adverse Events, and Quality of Life in Children With Acute Respiratory Tract Infections. JAMA. 2017 Dec"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 58,
+        "content": "19;318(23):2325-2336. [PMC free article: PMC5820700] [PubMed: 29260224]",
+        "metadata": {
+            "section_title": "19;318(23):2325-2336. [PMC free article: PMC5820700] [PubMed: 29260224]"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 59,
+        "content": "Pai L, Patil S, Liu S, Wen F. A growing battlefield in the war against biofilm-induced antimicrobial resistance:",
+        "metadata": {
+            "section_title": "Pai L, Patil S, Liu S, Wen F. A growing battlefield in the war against biofilm-induced antimicrobial resistance:"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 60,
+        "content": "insights from reviews on antibiotic resistance. Front Cell Infect Microbiol. 2023;13:1327069. [PMC free article:",
+        "metadata": {
+            "section_title": "insights from reviews on antibiotic resistance. Front Cell Infect Microbiol. 2023;13:1327069. [PMC free article:"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 61,
+        "content": "PMC10770264] [PubMed: 38188636]6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf",
+        "metadata": {
+            "section_title": "PMC10770264] [PubMed: 38188636]6/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf"
+        }
+    },
+    {
+        "page_number": 12,
+        "section_number": 62,
+        "content": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 12/13",
+        "metadata": {
+            "section_title": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 12/13"
+        }
+    },
+    {
+        "page_number": 13,
+        "section_number": 1,
+        "content": "75.",
+        "metadata": {
+            "section_title": "75."
+        }
+    },
+    {
+        "page_number": 13,
+        "section_number": 2,
+        "content": "76.",
+        "metadata": {
+            "section_title": "76."
+        }
+    },
+    {
+        "page_number": 13,
+        "section_number": 3,
+        "content": "77.",
+        "metadata": {
+            "section_title": "77."
+        }
+    },
+    {
+        "page_number": 13,
+        "section_number": 4,
+        "content": "78.Blumenthal KG, Lu N, Zhang Y, Li Y, Walensky RP, Choi HK. Risk of meticillin resistant Staphylococcus",
+        "metadata": {
+            "section_title": "78.Blumenthal KG, Lu N, Zhang Y, Li Y, Walensky RP, Choi HK. Risk of meticillin resistant Staphylococcus"
+        }
+    },
+    {
+        "page_number": 13,
+        "section_number": 5,
+        "content": "aureus and Clostridium difficile in patients with a documented penicillin allergy: population based matched",
+        "metadata": {
+            "section_title": "aureus and Clostridium difficile in patients with a documented penicillin allergy: population based matched"
+        }
+    },
+    {
+        "page_number": 13,
+        "section_number": 6,
+        "content": "cohort study. BMJ. 2018 Jun 27;361:k2400. [PMC free article: PMC6019853] [PubMed: 29950489]",
+        "metadata": {
+            "section_title": "cohort study. BMJ. 2018 Jun 27;361:k2400. [PMC free article: PMC6019853] [PubMed: 29950489]"
+        }
+    },
+    {
+        "page_number": 13,
+        "section_number": 7,
+        "content": "Zhou L, Dhopeshwarkar N, Blumenthal KG, Goss F, Topaz M, Slight SP, Bates DW. Drug allergies documented",
+        "metadata": {
+            "section_title": "Zhou L, Dhopeshwarkar N, Blumenthal KG, Goss F, Topaz M, Slight SP, Bates DW. Drug allergies documented"
+        }
+    },
+    {
+        "page_number": 13,
+        "section_number": 8,
+        "content": "in electronic health records of a large healthcare system. Allergy. 2016 Sep;71(9):1305-13. [PubMed: 26970431]",
+        "metadata": {
+            "section_title": "in electronic health records of a large healthcare system. Allergy. 2016 Sep;71(9):1305-13. [PubMed: 26970431]"
+        }
+    },
+    {
+        "page_number": 13,
+        "section_number": 9,
+        "content": "Shenoy ES, Macy E, Rowe T, Blumenthal KG. Evaluation and Management of Penicillin Allergy: A Review.",
+        "metadata": {
+            "section_title": "Shenoy ES, Macy E, Rowe T, Blumenthal KG. Evaluation and Management of Penicillin Allergy: A Review."
+        }
+    },
+    {
+        "page_number": 13,
+        "section_number": 10,
+        "content": "JAMA. 2019 Jan 15;321(2):188-199. [PubMed: 30644987]",
+        "metadata": {
+            "section_title": "JAMA. 2019 Jan 15;321(2):188-199. [PubMed: 30644987]"
+        }
+    },
+    {
+        "page_number": 13,
+        "section_number": 11,
+        "content": "Romano A, Valluzzi RL, Caruso C, Maggioletti M, Quaratino D, Gaeta F. Cross-Reactivity and Tolerability of",
+        "metadata": {
+            "section_title": "Romano A, Valluzzi RL, Caruso C, Maggioletti M, Quaratino D, Gaeta F. Cross-Reactivity and Tolerability of"
+        }
+    },
+    {
+        "page_number": 13,
+        "section_number": 12,
+        "content": "Cephalosporins in Patients with IgE-Mediated Hypersensitivity to Penicillins. J Allergy Clin Immunol Pract.",
+        "metadata": {
+            "section_title": "Cephalosporins in Patients with IgE-Mediated Hypersensitivity to Penicillins. J Allergy Clin Immunol Pract."
+        }
+    },
+    {
+        "page_number": 13,
+        "section_number": 13,
+        "content": "2018 Sep-Oct;6(5):1662-1672. [PubMed: 29408440]",
+        "metadata": {
+            "section_title": "2018 Sep-Oct;6(5):1662-1672. [PubMed: 29408440]"
+        }
+    },
+    {
+        "page_number": 13,
+        "section_number": 14,
+        "content": "Disclosure: Zachary Sandman declares no relevant financial relationships with ineligible companies.",
+        "metadata": {
+            "section_title": "Disclosure: Zachary Sandman declares no relevant financial relationships with ineligible companies."
+        }
+    },
+    {
+        "page_number": 13,
+        "section_number": 15,
+        "content": "Disclosure: Omar Iqbal declares no relevant financial relationships with ineligible companies.",
+        "metadata": {
+            "section_title": "Disclosure: Omar Iqbal declares no relevant financial relationships with ineligible companies."
+        }
+    },
+    {
+        "page_number": 13,
+        "section_number": 16,
+        "content": "Copyright  © 2025, StatPearls Publishing LLC.",
+        "metadata": {
+            "section_title": "Copyright  © 2025, StatPearls Publishing LLC."
+        }
+    },
+    {
+        "page_number": 13,
+        "section_number": 17,
+        "content": "This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) (",
+        "metadata": {
+            "section_title": "This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) ("
+        }
+    },
+    {
+        "page_number": 13,
+        "section_number": 18,
+        "content": "http://creativecommons.org/licenses/by-nc-nd/4.0/ ), which permits others to distribute the work, provided that the article is not altered or used",
+        "metadata": {
+            "section_title": "http://creativecommons.org/licenses/by-nc-nd/4.0/ ), which permits others to distribute the work, provided that the article is not altered or used"
+        }
+    },
+    {
+        "page_number": 13,
+        "section_number": 19,
+        "content": "commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.",
+        "metadata": {
+            "section_title": "commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal."
+        }
+    },
+    {
+        "page_number": 13,
+        "section_number": 20,
+        "content": "Bookshelf ID: NBK557766PMID: 324916986/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf",
+        "metadata": {
+            "section_title": "Bookshelf ID: NBK557766PMID: 324916986/17/25, 12:56 AM Azithromycin - StatPearls - NCBI Bookshelf"
+        }
+    },
+    {
+        "page_number": 13,
+        "section_number": 21,
+        "content": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 13/13",
+        "metadata": {
+            "section_title": "https://www.ncbi.nlm.nih.gov/books/NBK557766/?report=printable 13/13"
+        }
+    }
+]
