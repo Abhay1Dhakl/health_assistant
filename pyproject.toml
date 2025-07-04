@@ -1,0 +1,24 @@
+[project]
+name = "ai-ml-engineer-assignment"
+version = "0.1.0"
+description = "AI/ML Engineer Assignment with MCP servers"
+requires-python = ">=3.10"
+dependencies = [
+    "chromadb",
+    "flask",
+    "sentence-transformers",
+    "python-dotenv",
+    "PyPDF2",
+    "mcp==1.7.1",
+    "mcp-use==1.2.7",
+    "fastapi",
+    "uvicorn",
+    "torch",
+    "transformers",
+    "requests",
+    "langchain-openai",
+    "pydantic"
+]
+
+[tool.uv]
+dev-dependencies = []

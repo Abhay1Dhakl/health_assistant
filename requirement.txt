@@ -1,0 +1,6 @@
+chromadb
+flask
+sentence_transformers
+python-dotenv
+PyPDF2
+mcp
