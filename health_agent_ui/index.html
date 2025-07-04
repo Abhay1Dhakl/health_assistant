@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Query Assistant</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 700px;
+      margin: 50px auto;
+      padding: 20px;
+      background: #ffffff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+    button {
+      padding: 12px 20px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .response {
+      margin-top: 20px;
+      padding: 15px;
+      background: #f1f1f1;
+      border-radius: 6px;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Query Assistant</h2>
+    <input type="text" id="queryInput" placeholder="Ask a question..." />
+    <button onclick="submitQuery()">Submit</button>
+    <div class="response" id="responseBox"></div>
+  </div>
+
+  <script>
+    async function submitQuery() {
+      const query = document.getElementById("queryInput").value;
+      const responseBox = document.getElementById("responseBox");
+
+      if (!query) {
+        responseBox.textContent = "Please enter a query.";
+        return;
+      }
+
+      responseBox.textContent = "Processing...";
+
+      try {
+        const res = await fetch("http://localhost:8080/query", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ user_query: query })
+        });
+
+        const data = await res.json();
+        responseBox.textContent = data.response || data.error || "No response received.";
+      } catch (err) {
+        console.error(err);
+        responseBox.textContent = "Failed to connect to the server.";
+      }
+    }
+  </script>
+</body>
+</html>
