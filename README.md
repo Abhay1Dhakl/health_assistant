@@ -367,39 +367,7 @@ python -m http.server 8000 --bind 127.0.0.1
 - **Frontend logs**: Open browser developer tools (F12) → Console tab
 - **Network requests**: Browser developer tools → Network tab
 
-## 📁 Project Structure
-
-```
-AI_ML_Engineer_Assignment/
-├── health_agent/
-│   ├── main.py                    # FastAPI application
-│   ├── mcp_server_config.json     # MCP server configuration
-│   └── .env                       # Environment variables
-├── health_agent_ui/               # Frontend application (static files)
-│   ├── index.html                 # Main HTML file
-│   ├── css/                       # Stylesheets
-│   ├── js/                        # JavaScript files
-│   └── assets/                    # Static assets
-├── mcp_server/
-│   ├── doc_server.py              # MCP server with document tools
-│   ├── chroma_db1/                # ChromaDB for document1
-│   ├── chroma_db2/                # ChromaDB for document2
-│   ├── chroma_db3/                # ChromaDB for document3
-│   ├── document1/                 # StatPearls PDF
-│   ├── document2/                 # Clinical data PDF
-│   └── document3/                 # JCLA journal PDF
-├── mcp_server1/
-│   ├── data_conversion.py         # PDF to JSON converter
-│   └── processed_data/            # JSON outputs
-├── pyproject.toml                 # UV project configuration
-├── requirement.txt               # pip requirements
-├── sample_questions.txt          # Sample questions for testing
-├── .env                          # Root environment variables
-├── .gitignore
-└── README.md
-```
-
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
