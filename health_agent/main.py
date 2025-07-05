@@ -64,14 +64,22 @@ async def handle_query(request: QueryRequest):
         return JSONResponse(content={"error": "An error occurred while processing the query."}, status_code=500)
 
 
-async def query_mcp(user_query: str) -> dict:
-    """Return the SQL condition only.
+async def query_mcp(user_query: str) -> str:
+    """
+    Query the MCP server to retrieve medical information from azithromycin documents.
+    
+    This function connects to the MCP server, uses AI to select the most relevant
+    document(s) based on the user's query, and returns a comprehensive medical
+    response with proper citations.
     
     Args:
-        user_query: The natural language query to convert to SQL conditions
+        user_query (str): The user's medical question about azithromycin
         
     Returns:
-        str: The SQL WHERE clause conditions
+        str: Medical information response with citations and references
+        
+    Raises:
+        Exception: If MCP server connection fails or query processing encounters errors
     """
     print("i am here")
     config_file = 'mcp_server_config.json'
@@ -188,11 +196,22 @@ async def query_mcp(user_query: str) -> dict:
     except Exception as e:
         # Log the error and return a default or raise
         print(f"Error in query_mcp: {str(e)}")
-        return "Error detected"  # Default safe filter, or consider raising the exception
+        return "Error detected"
 
    
 async def process_query(user_query):
-    "Return the SQL condition only."
+    """
+    Process a medical query and return the final response.
+    
+    This is the main query processing function that coordinates with the MCP server
+    to provide medical information about azithromycin.
+    
+    Args:
+        user_query (str): The user's medical question
+        
+    Returns:
+        str: The processed medical information response with citations
+    """
 
      # Get the result from MCP
     mcp_result = await query_mcp(user_query) 

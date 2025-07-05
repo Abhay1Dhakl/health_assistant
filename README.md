@@ -367,6 +367,11 @@ python -m http.server 8000 --bind 127.0.0.1
 - **Frontend logs**: Open browser developer tools (F12) → Console tab
 - **Network requests**: Browser developer tools → Network tab
 
+
+## Design Documentation
+
+For detailed information about design choices, libraries used, and how hallucinations are addressed, see `DESIGN_NOTES.md`.
+
 ## Contributing
 
 1. Fork the repository
