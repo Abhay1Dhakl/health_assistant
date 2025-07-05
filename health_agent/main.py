@@ -8,6 +8,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 import torch
 import chromadb
 import requests
+import json
+from langchain_core.messages import HumanMessage
 from dotenv import load_dotenv
 from mcp_use import MCPAgent, MCPClient
 from langchain_openai import ChatOpenAI
@@ -17,12 +19,14 @@ from mcp import Tool
 import sys
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
+import sys
+import asyncio
 
 app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:8000"],  # your frontend port
+    allow_origins=["http://localhost:8000"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -35,16 +39,10 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '.
 OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-# app = FastAPI()
-
-import sys
-import asyncio
-
 # Set Windows event loop policy
 if sys.platform.startswith('win'):
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
-
-    
+  
 # Load Sentence Transformer for query vectorization
 embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
 
@@ -65,47 +63,6 @@ async def handle_query(request: QueryRequest):
         print(f"Error processing query: {e}")
         return JSONResponse(content={"error": "An error occurred while processing the query."}, status_code=500)
 
-def vectorize_query(user_query):
-    """Generate a vector representation of the user's query."""
-    return embedding_model.encode(user_query)
-
-import json
-from langchain_core.messages import HumanMessage
-
-async def handle_tool_selection(user_query, tools, llm):
-    """
-    Automatically lets the LLM select the best tool (document1/2/3) and executes it.
-    Returns the tool's response.
-    """
-    # Bind tools to the model
-    llm_with_tools = llm.bind_tools(tools)
-
-    # Step 1: Prompt the model
-    result = await llm_with_tools.ainvoke([
-        HumanMessage(content=user_query)
-    ])
-
-    # Step 2: Check if it wants to call a tool
-    tool_calls = result.additional_kwargs.get("tool_calls", [])
-    if not tool_calls:
-        print("No tool selected by LLM.")
-        return result.content or "No tool needed for this query."
-
-    tool_results = {}
-    for tool_call in tool_calls:
-        tool_name = tool_call["function"]["name"]
-        args = json.loads(tool_call["function"]["arguments"])
-
-        # Step 3: Find and run the selected tool
-        matching_tool = next((tool for tool in tools if tool.name == tool_name), None)
-        if matching_tool:
-            print(f"LLM selected tool: {tool_name} with args: {args}")
-            tool_output = await matching_tool.ainvoke(args)
-            tool_results[tool_name] = tool_output
-        else:
-            print(f"Tool {tool_name} not found in tools list.")
-
-    return tool_results
 
 async def query_mcp(user_query: str) -> dict:
     """Return the SQL condition only.
@@ -130,12 +87,7 @@ async def query_mcp(user_query: str) -> dict:
             openai_api_base=OPENAI_BASE_URL,
         )
 
-        # tool_outputs = await handle_tool_selection(user_query, tools, llm)
-
-        # print("Final Output from tool(s):", tool_outputs)
-        # filter_condition = result
-        
-        # System prompt - clear instruction for SQL generation
+        # System prompt - clear instruction 
         system_prompt = f"""
             You are an expert medical information assistant with access to multiple pharmaceutical and medical documents through specialized tools.
 
@@ -171,6 +123,22 @@ async def query_mcp(user_query: str) -> dict:
             - Include any important warnings, contraindications, or clinical considerations
             - End with the source attribution (e.g., "Based on StatPearls documentation" or "According to JCLA research")
 
+                        
+            5. **Citation Requirements:**
+            - Include in-text citations after each paragraph: (Source, DocumentX)
+            - End each response with a "References:" section listing all sources used
+            - For multiple sources, cite each one specifically
+
+            6. **Response Format:**
+            [Content paragraph 1] (StatPearls, Document1)
+
+            [Content paragraph 2] (Clinical Data, Document2)
+
+            7. **References:**
+            1. Document1: Azithromycin StatPearls/NCBI Documentation
+            2. Document2: Azithromycin Clinical Research Data
+            3. Document3: JCLA Medical Journal Analysis
+
             Choose the most appropriate tool(s) and provide an accurate, comprehensive response based on the available medical literature.
             """
         adapter = LangChainAdapter()
@@ -193,7 +161,7 @@ async def query_mcp(user_query: str) -> dict:
                         tool_messages.append({
                             "role": "tool",
                             "tool_call_id": call["id"],
-                            "content": result  # ✅ required
+                            "content": result 
                         })
 
         # Step 3: Feed full conversation + tool output back to LLM
@@ -202,16 +170,14 @@ async def query_mcp(user_query: str) -> dict:
             {"role": "user", "content": user_query},
             {
                 "role": "assistant",
-                "content": "",  # ✅ fix here!
+                "content": "",
                 "tool_calls": response.tool_calls
             },
             *tool_messages
         ])
 
         print(final_response.content)
-            # return second_response.content
             
-        
         # Handle different response formats
         if isinstance(result, dict):
             result = result.get("filter", str(result))
@@ -224,125 +190,12 @@ async def query_mcp(user_query: str) -> dict:
         print(f"Error in query_mcp: {str(e)}")
         return "Error detected"  # Default safe filter, or consider raising the exception
 
-
-def query_llm_with_filter(user_query,mcp_result):
-    """Generate a response using the external API."""
-    context = vectorize_query(user_query)
-    if isinstance(context, dict):
-        context = " ".join(context)
-    print(context)
-    if context.startswith("Error") or context.startswith("No matching"):
-        return context  # Return the error or no match message directly
-    
-    # If a matching filter was found, proceed with LLM query
-    headers = {
-        "Authorization": f"Bearer {OPENAI_API_KEY}",
-        "Content-Type": "application/json"
-    }
-
-    data = {
-        # "model": "gpt-3.5-turbo",  # Specify your LLM model
-        "messages": [
-          {
-    "role": "system",
-    "content": "You are a helpful assistant that generates a SQL query based on the provided context and query. Do not give any explanation, just provide the SQL query."
-},
-{
-    "role": "user",
-    "content": f"Given this context: {context}, complete the following SQL query based on the user query: '{user_query}'. Only include the relevant condition for the query in the WHERE clause, and do not add unnecessary conditions. The starting query is: 'SELECT * FROM iceberg.gold.cdp WHERE'. Context: {context} remove the fact. from the filter and just keep the column name. User Query: {user_query}"
-}
-
-
-        ]
-    }
-
-    # Sending request to OpenAI's API (or any other LLM API)
-    try:
-        response = requests.post(url=f"{OPENAI_BASE_URL}chat/completions", headers=headers, json=data)
-        response_data = response.json()
-        return response_data['choices'][0]['message']['content']
-    except Exception as e:
-        print(f"Error querying LLM: {e}")
-        return "Failed to get a response from the LLM."
    
-def generate_description(result,user_query):
-     # Calculate basic statistics
-    row_count = len(result)
-    
-    # Prepare data segment examples (first 3 rows) for analysis
-    sample_data = result[:3] if row_count > 0 else []
-
-    headers = {
-        "Authorization": f"Bearer {OPENAI_API_KEY}",
-        "Content-Type": "application/json"
-    }
-
-    prompt = f"""
-    Analyze this dataset and provide insights:
-    
-    - Total rows: {row_count}
-    - Sample data: {sample_data}
-    - Original user query: "{user_query}"
-    
-    Your task:
-    1. Identify key segments in the data (e.g., categories, patterns)
-    2. Note any interesting distributions or outliers
-    3. Provide a concise 2-3 sentence summary
-    4. Suggest potential follow-up analysis questions
-    
-    Format your response as JSON with these keys:
-    - "segments": List the main data segments found
-    - "key_observations": Notable patterns in the data  
-    - "summary": Brief overall summary
-    - "follow_up_questions": 2-3 suggested next questions
-    
-    Return ONLY the JSON object, no additional text or explanations.
-    """
-
-    data = {
-        # "model": "gpt-3.5-turbo",  # Specify your LLM model
-        "messages": [
-          {
-    "role": "system",
-    "content":"You are a data analyst that provides clear insights about datasets in JSON format."
-},
-{
-    "role": "user",
-    "content":prompt
-}
-
-
-        ]
-    }
-
-    # Sending request to OpenAI's API (or any other LLM API)
-    try:
-        response = requests.post(url=f"{OPENAI_BASE_URL}chat/completions", headers=headers, json=data)
-        response_data = response.json()
-        return response_data['choices'][0]['message']['content']
-    except Exception as e:
-        print(f"Error querying LLM: {e}")
-        return "Failed to get a response from the LLM."
-
-
 async def process_query(user_query):
     "Return the SQL condition only."
-    
-    mcp_result = await query_mcp(user_query)  # Get the result from MCP
 
-    # if isinstance(mcp_result, str) and mcp_result.startswith("Error"):
-    #     return {"error": mcp_result}  # Return error from MCP
-
-    # Now, mcp_result contains the context or filter from ChromaDB
-    print(f"Received context from MCP: {mcp_result}")
-    
-    # Step 1: Generate SQL query based on LLM with ChromaDB context from MCP
-    # response = query_llm_with_filter(user_query, mcp_result)
-
-    # print('sql query', response)
-    # result = execute_sql_on_trino(response)
-
-    # description = generate_description(result,user_query)
+     # Get the result from MCP
+    mcp_result = await query_mcp(user_query) 
     
     return mcp_result
 

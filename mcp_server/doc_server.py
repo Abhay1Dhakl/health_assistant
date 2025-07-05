@@ -27,9 +27,6 @@ def format_response(data: Any, status: str = "success") -> Dict[str, Any]:
     }
 
 # @mcp.prompt()
-# def get_ind_legal_data() -> str:
-#     """Prompt the user for customer type: INDIVIDUAL or LEGAL."""
-#     return "Please provide the customer type: INDIVIDUAL or LEGAL."
 
 @mcp.tool(name="document1", description="Get structured data from ChromaDB")
 def document1(query: str) -> Dict[str, Any]:
@@ -52,7 +49,7 @@ def document1(query: str) -> Dict[str, Any]:
         )
         
         # Process results
-        response = {"filter": "1=1", "contexts": []}  # Default safe filter
+        response = {"filter": "1=1", "contexts": []}
         if results.get("documents"):
             documents_list = results["documents"]
             metadatas_list = results.get("metadatas", [])
@@ -64,7 +61,7 @@ def document1(query: str) -> Dict[str, Any]:
                         "metadata": meta
                     })
 
-            # Optional: update filter if one is present in the first metadata
+            # update filter if one is present in the first metadata
             if metadatas_list and metadatas_list[0] and isinstance(metadatas_list[0][0], dict):
                 response["filter"] = metadatas_list[0][0].get("filter", "1=1")
 
@@ -109,7 +106,7 @@ def document2(query: str) -> Dict[str, Any]:
                         "metadata": meta
                     })
 
-            # Optional: update filter if one is present in the first metadata
+            # update filter if one is present in the first metadata
             if metadatas_list and metadatas_list[0] and isinstance(metadatas_list[0][0], dict):
                 response["filter"] = metadatas_list[0][0].get("filter", "1=1")
 
@@ -142,7 +139,7 @@ def document3(query: str) -> Dict[str, Any]:
         )
         
         # Process results
-        response = {"filter": "1=1", "contexts": []}  # Default safe filter
+        response = {"filter": "1=1", "contexts": []}
         if results.get("documents"):
             documents_list = results["documents"]
             metadatas_list = results.get("metadatas", [])
@@ -154,7 +151,7 @@ def document3(query: str) -> Dict[str, Any]:
                         "metadata": meta
                     })
 
-            # Optional: update filter if one is present in the first metadata
+            # update filter if one is present in the first metadata
             if metadatas_list and metadatas_list[0] and isinstance(metadatas_list[0][0], dict):
                 response["filter"] = metadatas_list[0][0].get("filter", "1=1")
 

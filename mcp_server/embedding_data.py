@@ -20,13 +20,14 @@ for name in client.list_collections():
     print("names aare",name.name)
     if collection_name == name.name:
         print("matched")
-        client.delete_collection(collection_name)  # retrieve the existing collection
-    
-collection = client.create_collection(collection_name)  # create a new collection
+        client.delete_collection(collection_name)
+
+ # create a new collection    
+collection = client.create_collection(collection_name) 
 
 # add documents to chromadb
 for idx, chunk in enumerate(far_data):
-    embedding = model.encode(chunk["content"]).tolist()  # generate embedding
+    embedding = model.encode(chunk["content"]).tolist()
     collection.add(
         documents=[chunk["content"]],
         embeddings=[embedding],
