@@ -1,0 +1,119 @@
+# Sample Questions for Medical Information System
+
+This file contains sample questions that can be asked from the three azithromycin documents.
+Each section corresponds to a specific document and the types of questions that work best with it.
+
+## Document 1: Azithromycin StatPearls/NCBI (Comprehensive Drug Information)
+Best for: Basic drug information, mechanism of action, pharmacology, general medical facts
+
+### Sample Questions:
+- What is the mechanism of action of azithromycin?
+- What class of antibiotic is azithromycin?
+- How does azithromycin work against bacteria?
+- What is the chemical structure of azithromycin?
+- What are the pharmacokinetic properties of azithromycin?
+- What is the spectrum of activity for azithromycin?
+- How is azithromycin absorbed in the body?
+- What are the basic properties of azithromycin?
+- What is the history and development of azithromycin?
+- What are the fundamental characteristics of azithromycin?
+
+## Document 2: Azithromycin Clinical Data (Prescribing Information)
+Best for: Dosage guidelines, clinical usage, prescribing information, therapeutic applications
+
+### Sample Questions:
+- What are the recommended dosage guidelines for azithromycin?
+- How should azithromycin be administered to patients?
+- What are the standard treatment durations for azithromycin?
+- What are the clinical indications for azithromycin?
+- What conditions is azithromycin prescribed for?
+- What are the dosing recommendations for pediatric patients?
+- How should azithromycin be dosed in elderly patients?
+- What are the therapeutic applications of azithromycin?
+- What are the clinical trial results for azithromycin?
+- What are the prescribing guidelines for azithromycin?
+
+## Document 3: JCLA Medical Journal (Laboratory Analysis)
+Best for: Laboratory monitoring, clinical analysis, research findings, diagnostic considerations
+
+### Sample Questions:
+- What laboratory parameters should be monitored during azithromycin therapy?
+- What are the clinical laboratory considerations for azithromycin?
+- What diagnostic tests are recommended with azithromycin use?
+- What are the laboratory findings associated with azithromycin?
+- What monitoring is required during azithromycin treatment?
+- What are the research findings on azithromycin from clinical studies?
+- What laboratory abnormalities can occur with azithromycin?
+- What are the clinical analysis results for azithromycin?
+- What diagnostic markers should be tracked with azithromycin?
+- What are the laboratory safety considerations for azithromycin?
+
+## Multi-Document Questions (Triggers Multiple Sources)
+These questions require information from multiple documents and will activate the AI's tool selection:
+
+### Comprehensive Medical Queries:
+- What are the complete prescribing guidelines for azithromycin including dosage, contraindications, and monitoring requirements?
+- Provide a comprehensive overview of azithromycin including its mechanism, clinical uses, and safety monitoring.
+- What are the contraindications, side effects, and monitoring requirements for azithromycin?
+- Give me a complete clinical profile of azithromycin including pharmacology, dosing, and laboratory considerations.
+- What should healthcare providers know about azithromycin therapy from initiation to monitoring?
+- Provide a detailed analysis of azithromycin covering its properties, clinical applications, and safety profile.
+- What are the key considerations for prescribing azithromycin including dosing, interactions, and monitoring?
+- Give me a comprehensive guide to azithromycin therapy including mechanism, indications, and safety.
+
+### Safety and Monitoring Questions:
+- What are the side effects and adverse reactions of azithromycin?
+- What are the contraindications for azithromycin use?
+- What drug interactions should be considered with azithromycin?
+- What safety precautions should be taken when prescribing azithromycin?
+- What are the warnings and precautions for azithromycin therapy?
+- What are the potential complications of azithromycin treatment?
+
+### Clinical Application Questions:
+- When should azithromycin be prescribed versus other antibiotics?
+- What are the advantages and disadvantages of azithromycin therapy?
+- How effective is azithromycin for different types of infections?
+- What are the treatment outcomes with azithromycin?
+- What factors influence azithromycin treatment success?
+- How does azithromycin compare to other macrolide antibiotics?
+
+## Tips for Asking Questions:
+
+1. **Be Specific**: More specific questions often yield better, more focused answers.
+2. **Use Medical Terminology**: The system is designed for medical professionals and understands clinical language.
+3. **Ask Follow-up Questions**: Build on previous answers to get deeper insights.
+4. **Combine Topics**: Ask questions that span multiple aspects (dosing + monitoring, mechanism + clinical use).
+5. **Request Comparisons**: Ask how azithromycin compares to other treatments.
+
+## Question Categories:
+
+### Basic Information:
+- What is azithromycin?
+- What type of antibiotic is azithromycin?
+- How does azithromycin work?
+
+### Clinical Usage:
+- What infections is azithromycin used for?
+- How is azithromycin prescribed?
+- What is the typical treatment course?
+
+### Safety and Monitoring:
+- What are the risks of azithromycin?
+- What should be monitored during treatment?
+- What are the contraindications?
+
+### Advanced Topics:
+- What is the resistance pattern of azithromycin?
+- What are the latest research findings?
+- How does azithromycin affect different patient populations?
+
+## Testing the System:
+
+To test the document selection and citation system:
+1. Start with basic questions from Document 1
+2. Try clinical questions from Document 2
+3. Ask laboratory questions from Document 3
+4. Test multi-document queries
+5. Verify that responses include proper citations and references
+
+Remember: The system will automatically select the most relevant document(s) based on your question content and provide citations in the response.

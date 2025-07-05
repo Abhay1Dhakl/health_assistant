@@ -251,6 +251,14 @@ The easiest way to interact with the system is through the web UI:
 
 ## Testing
 
+### Sample Questions
+
+For a comprehensive list of sample questions you can ask, see the `sample_questions.txt` file in the project root. This file contains:
+- Document-specific questions for each of the 3 medical documents
+- Multi-document queries that trigger multiple sources
+- Tips for asking effective questions
+- Question categories and examples
+
 ### Web UI Testing
 
 1. **Open the application**: Navigate to `http://localhost:8000`
@@ -258,6 +266,7 @@ The easiest way to interact with the system is through the web UI:
 3. **Test document selection**: Try specific queries to trigger different documents
 4. **Verify citations**: Check that responses include proper source citations
 5. **Test multi-document queries**: Ask comprehensive questions requiring multiple sources
+6. **Use sample questions**: Refer to `sample_questions.txt` for tested question examples
 
 ### API Testing
 
@@ -358,7 +367,39 @@ python -m http.server 8000 --bind 127.0.0.1
 - **Frontend logs**: Open browser developer tools (F12) → Console tab
 - **Network requests**: Browser developer tools → Network tab
 
-## Contributing
+## 📁 Project Structure
+
+```
+AI_ML_Engineer_Assignment/
+├── health_agent/
+│   ├── main.py                    # FastAPI application
+│   ├── mcp_server_config.json     # MCP server configuration
+│   └── .env                       # Environment variables
+├── health_agent_ui/               # Frontend application (static files)
+│   ├── index.html                 # Main HTML file
+│   ├── css/                       # Stylesheets
+│   ├── js/                        # JavaScript files
+│   └── assets/                    # Static assets
+├── mcp_server/
+│   ├── doc_server.py              # MCP server with document tools
+│   ├── chroma_db1/                # ChromaDB for document1
+│   ├── chroma_db2/                # ChromaDB for document2
+│   ├── chroma_db3/                # ChromaDB for document3
+│   ├── document1/                 # StatPearls PDF
+│   ├── document2/                 # Clinical data PDF
+│   └── document3/                 # JCLA journal PDF
+├── mcp_server1/
+│   ├── data_conversion.py         # PDF to JSON converter
+│   └── processed_data/            # JSON outputs
+├── pyproject.toml                 # UV project configuration
+├── requirement.txt               # pip requirements
+├── sample_questions.txt          # Sample questions for testing
+├── .env                          # Root environment variables
+├── .gitignore
+└── README.md
+```
+
+## 🤝 Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
