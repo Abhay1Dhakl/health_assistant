@@ -372,7 +372,6 @@ python -m http.server 8000 --bind 127.0.0.1
 
 For detailed information about design choices, libraries used, and how hallucinations are addressed, see `DESIGN_NOTES.md`.
 
-## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
