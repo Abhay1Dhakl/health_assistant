@@ -11,16 +11,15 @@ pc = Pinecone(
 
 # Create a dense index with integrated embedding
 index_name = "uploaded-documents"
-if not pc.has_index(index_name):
-    pc.create_index_for_model(
-        name=index_name,
-        cloud="aws",
-        region="us-east-1",
-        embed={
-            "model":"llama-text-embed-v2",
-            "field_map":{"text": "chunk_text"}
-        }
-    )
+if pc.has_index(index_name):
+    pc.delete_index(index_name)
+pc.create_index(
+    name=index_name,
+    dimension=384,
+    metric="cosine",
+    cloud="aws",
+    region="us-east-1"
+)
 
 def get_embedding_data(text):
     model = SentenceTransformer('sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2')
