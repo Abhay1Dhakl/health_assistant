@@ -43,7 +43,7 @@ document.getElementById("ingestion-form").addEventListener("submit", async funct
   for (let pair of formData.entries()) {
     formDataEntries.push([pair[0], pair[1]]);
   }
-  alert("Submitting data: " + JSON.stringify(formDataEntries));
+  // alert("Submitting data: " + JSON.stringify(formDataEntries));
 
   try {
     const res = await fetch("http://localhost:8000/admin/documents/ingest", {

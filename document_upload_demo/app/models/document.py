@@ -1,24 +1,29 @@
 import uuid
 from datetime import datetime
-from pinecone import Pinecone
+from pinecone import Pinecone, ServerlessSpec
 import dotenv
 import os
 from sentence_transformers import SentenceTransformer
+
 dotenv.load_dotenv()
 
 pc = Pinecone(
-    api_key=os.getenv("PINECONE_API_KEY"))
+    # api_key=os.getenv("PINECONE_API_KEY"))
+    api_key= "pcsk_2RGA3Z_LVfVmxNQ7A7DX7w5BuhEW4MTCGmGuSghX7GmMwizqWqVCumyrWCcMdtE1jDxgav",
+    environment="aped-4627-b74a"  )
 
 # Create a dense index with integrated embedding
-index_name = "uploaded-documents"
+index_name = "quickstart-py"
 if pc.has_index(index_name):
     pc.delete_index(index_name)
 pc.create_index(
     name=index_name,
     dimension=384,
-    metric="cosine",
-    cloud="aws",
-    region="us-east-1"
+    metric= "cosine",
+
+        spec =ServerlessSpec(cloud= "aws", # Specify the cloud provider (e.g., "aws" or "gcp")
+        region= "us-east-1")
+            
 )
 
 def get_embedding_data(text):
@@ -51,6 +56,8 @@ async def store_document(data, text_content):
             "metadata": metadata
         }
     ])
+    index = pc.Index("quickstart-py")
+    print(index.describe_index_stats())
     return {
         "document_id": doc_id,
         "status": "stored",
