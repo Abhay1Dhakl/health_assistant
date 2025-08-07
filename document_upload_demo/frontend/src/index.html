@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Document Ingestion</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Document Ingestion</h1>
+    <form id="ingestion-form">
+      <label>Instance ID <input type="text" name="instance_id" required /></label>
+      <label>Document Type
+        <select name="document_type">
+          <option value="GRD">GRD</option>
+          <option value="LRD">LRD</option>
+          <option value="PI" selected>PI</option>
+          <option value="Leaflet">Leaflet</option>
+          <option value="PastCase">Past Case</option>
+        </select>
+      </label>
+
+      <label>Source Type
+        <select name="source_type" id="source-type">
+          <option value="api">API</option>
+          <option value="upload">Upload</option>
+          <option value="manual">Manual</option>
+        </select>
+      </label>
+
+      <label>Source System <input type="text" name="source_system" /></label>
+
+      <fieldset>
+        <legend>Metadata</legend>
+        <label>Title <input type="text" name="title" required /></label>
+        <label>Language <input type="text" name="language" value="en" /></label>
+        <label>Region <input type="text" name="region" /></label>
+        <label>Author <input type="text" name="author" /></label>
+        <label>Tags <input type="text" name="tags" placeholder="comma,separated,tags" /></label>
+      </fieldset>
+
+      <fieldset id="api-fields">
+        <legend>API Connection Info</legend>
+        <label>Auth Type <input type="text" name="auth_type" value="oauth2" /></label>
+        <label>Client ID <input type="text" name="client_id" /></label>
+        <label>Client Secret <input type="text" name="client_secret" /></label>
+        <label>Token URL <input type="text" name="token_url" /></label>
+        <label>Data URL <input type="text" name="data_url" /></label>
+      </fieldset>
+
+      <label id="upload-field" style="display: none;">Upload File <input type="file" id="file-upload" /></label>
+
+      <label id="manual-field" style="display: none;">Manual Text
+        <textarea name="manual_text"></textarea>
+      </label>
+
+      <button type="submit">Ingest Document</button>
+      <div id="message"></div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

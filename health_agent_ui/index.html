@@ -56,6 +56,19 @@
 <body>
   <div class="container">
     <h2>Query Assistant</h2>
+    <!-- Add this above the file input -->
+    <label for="countrySelect">Select Country:</label>
+    <select id="countrySelect">
+      <option value="">--Select--</option>
+      <option value="USA">USA</option>
+      <option value="India">India</option>
+      <option value="UK">UK</option>
+      <!-- Add more countries as needed -->
+    </select>
+    <input type="file" id="docUpload" multiple accept=".pdf,.doc,.docx" />
+    <button onclick="uploadDocuments()">Upload Documents</button>
+    <div id="uploadStatus" style="margin-bottom: 20px; color: #007bff;"></div>
+    <!-- File upload section end -->
     <input type="text" id="queryInput" placeholder="Ask a question..." />
     <button onclick="submitQuery()">Submit</button>
     <div class="response" id="responseBox"></div>
@@ -85,6 +98,51 @@
       } catch (err) {
         console.error(err);
         responseBox.textContent = "Failed to connect to the server.";
+      }
+    }
+
+    async function uploadDocuments() {
+      const uploadInput = document.getElementById("docUpload");
+      const uploadStatus = document.getElementById("uploadStatus");
+      const country = document.getElementById("countrySelect").value;
+      const files = uploadInput.files;
+
+      if (!country) {
+        uploadStatus.textContent = "Please select a country.";
+        return;
+      }
+      if (files.length === 0) {
+        uploadStatus.textContent = "Please select at least one document to upload.";
+        return;
+      }
+      if (files.length > 3) {
+        uploadStatus.textContent = "You can upload up to 3 documents at a time.";
+        return;
+      }
+
+      const formData = new FormData();
+      formData.append("country", country);
+      for (let i = 0; i < files.length; i++) {
+        formData.append("documents", files[i]);
+      }
+
+      uploadStatus.textContent = "Uploading...";
+
+      try {
+        const res = await fetch("http://localhost:8080/upload", {
+          method: "POST",
+          body: formData
+        });
+        const data = await res.json();
+        if (res.ok) {
+          uploadStatus.textContent = data.message || "Documents uploaded successfully.";
+          uploadInput.value = ""; // Clear input
+        } else {
+          uploadStatus.textContent = data.error || "Upload failed.";
+        }
+      } catch (err) {
+        console.error(err);
+        uploadStatus.textContent = "Failed to connect to the server.";
       }
     }
   </script>

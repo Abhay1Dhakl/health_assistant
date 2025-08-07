@@ -4,3 +4,6 @@ sentence_transformers
 python-dotenv
 PyPDF2
 mcp
+fask_api
+langchain_core
+mcp_use
