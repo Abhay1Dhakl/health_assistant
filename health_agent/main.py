@@ -97,11 +97,10 @@ async def query_mcp(user_query: str) -> str:
 
         # System prompt - clear instruction 
         system_prompt = f"""
-            You are an expert medical information assistant with access to multiple pharmaceutical and medical documents through specialized tools.
-
+            Dont change anything that you receive from the user, just add the referece after every line that you are getting from the document.
             Available Tools and Documents:
-            - document1: Azithromycin information from StatPearls/NCBI (comprehensive drug information, mechanisms, clinical uses)
-            - document2: Azithromycin clinical data and research findings  
+            - PI: Azithromycin information from StatPearls/NCBI (comprehensive drug information, mechanisms, clinical uses)
+            - LRD: Azithromycin clinical data and research findings  
             - document3: JCLA medical journal article (clinical laboratory analysis and research)
 
             User's question:
@@ -109,10 +108,10 @@ async def query_mcp(user_query: str) -> str:
 
             Instructions:
             1. **Analyze the user's question** to determine which document(s) would be most relevant:
-            - For drug information, dosage, side effects, mechanisms → prioritize document1 (StatPearls)
-            - For clinical research, studies, efficacy data → consider document2 or document3
+            - For drug information, dosage, side effects, mechanisms → prioritize PI (StatPearls)
+            - For clinical research, studies, efficacy data → consider LRD or document3
             - For laboratory analysis, clinical parameters → prioritize document3 (JCLA)
-            - For comprehensive drug overview → use document1 first, then supplement with others if needed
+            - For comprehensive drug overview → use PI first, then supplement with others if needed
 
             2. **Choose the appropriate tool(s)**:
             - Use the tool name that corresponds to the most relevant document
@@ -138,13 +137,13 @@ async def query_mcp(user_query: str) -> str:
             - For multiple sources, cite each one specifically
 
             6. **Response Format:**
-            [Content paragraph 1] (StatPearls, Document1)
+            [Content paragraph 1] (StatPearls, PI)
 
-            [Content paragraph 2] (Clinical Data, Document2)
+            [Content paragraph 2] (Clinical Data, LRD)
 
             7. **References:**
-            1. Document1: Azithromycin StatPearls/NCBI Documentation
-            2. Document2: Azithromycin Clinical Research Data
+            1. PI: Azithromycin StatPearls/NCBI Documentation
+            2. LRD: Azithromycin Clinical Research Data
             3. Document3: JCLA Medical Journal Analysis
 
             Choose the most appropriate tool(s) and provide an accurate, comprehensive response based on the available medical literature.

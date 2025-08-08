@@ -5,6 +5,11 @@ import json
 from sentence_transformers import SentenceTransformer
 from typing import Dict, Any
 import sys
+from pinecone.grpc import PineconeGRPC, GRPCClientConfig
+from pinecone import Pinecone
+
+
+embedding_model = SentenceTransformer('sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2')
 
 mcp = FastMCP(
     name="mcp_server",
@@ -12,6 +17,34 @@ mcp = FastMCP(
     port=8001,
     debug=False
 )
+
+pc = Pinecone(
+    # api_key=os.getenv("PINECONE_API_KEY"))
+    api_key= "pcsk_2RGA3Z_LVfVmxNQ7A7DX7w5BuhEW4MTCGmGuSghX7GmMwizqWqVCumyrWCcMdtE1jDxgav",
+    environment="aped-4627-b74a"  )
+
+document_index_host = pc.describe_index(name="quickstart-py").host 
+document_index = pc.Index(host = document_index_host, grpc_config=GRPCClientConfig(secure=False)) 
+
+def parse_pinecone_response(pinecone_response):
+    """Parse Pinecone response to extract metadata"""
+    if not pinecone_response or "matches" not in pinecone_response:
+        return {"matches": []}
+    
+    parsed = {
+        "matches": []
+    }
+    
+    for match in pinecone_response["matches"]:
+        metadata = match.get("metadata", {})
+        parsed["matches"].append({
+            "id": match.get("id"),
+            "score": match.get("score"),
+            "metadata": metadata
+        })
+    print("Parsed Pinecone Response:", json.dumps(parsed, indent=2), file=sys.stderr)
+    return parsed
+
 
 def format_response(data: Any, status: str = "success") -> Dict[str, Any]:
     """Ensure all responses follow MCP JSON-RPC 2.0 format"""
@@ -26,141 +59,96 @@ def format_response(data: Any, status: str = "success") -> Dict[str, Any]:
         "id": None  # Will be set by MCP framework
     }
 
-# @mcp.prompt()
 
-@mcp.tool(name="document1", description="Get structured data from ChromaDB")
+
+@mcp.tool(name="lrd", description="Get structured data from ChromaDB")
 def document1(query: str) -> Dict[str, Any]:
     """Get structured data from ChromaDB"""
 
     try:
-        # Initialize ChromaDB
-        client = chromadb.PersistentClient(path='chroma_db1')
-        collection = client.get_collection("document1_embedded_data")
-        
         # Generate embeddings
-        embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
         query_vector = embedding_model.encode(query)
-        
-        # Query ChromaDB
-        results = collection.query(
-            query_embeddings=[query_vector],
-            n_results=5,
-            include=["documents", "metadatas"]
+        if hasattr(query_vector, "tolist"):
+            query_vector = query_vector.tolist()
+        pinecone_response = document_index.query(
+            top_k=1,
+            include_values=True,
+            include_metadata=True,
+            vector=query_vector,
+            filter={"document_type": "LRD"}  # Example filter, adjust as needed
         )
+
+        print(f"Query Response: {pinecone_response}", file=sys.stderr)
         
-        # Process results
-        response = {"filter": "1=1", "contexts": []}
-        if results.get("documents"):
-            documents_list = results["documents"]
-            metadatas_list = results.get("metadatas", [])
-
-            for docs, metas in zip(documents_list, metadatas_list):
-                for doc, meta in zip(docs, metas):
-                    response["contexts"].append({
-                        "document": doc,
-                        "metadata": meta
-                    })
-
-            # update filter if one is present in the first metadata
-            if metadatas_list and metadatas_list[0] and isinstance(metadatas_list[0][0], dict):
-                response["filter"] = metadatas_list[0][0].get("filter", "1=1")
-
+        response = parse_pinecone_response(pinecone_response)
+        print(f"Parsed Response: {response}", file=sys.stderr)
         return response
         
-        
+    
     except Exception as e:
         print(f"Error: {str(e)}", file=sys.stderr)
         return format_response(str(e), "error")
 
 
-@mcp.tool(name="document2", description="Get structured data from ChromaDB")
-def document2(query: str) -> Dict[str, Any]:
+
+@mcp.tool(name="pis", description="Get structured data from ChromaDB")
+def document1(query: str) -> Dict[str, Any]:
     """Get structured data from ChromaDB"""
 
     try:
-        # Initialize ChromaDB
-        client = chromadb.PersistentClient(path='chroma_db2')
-        collection = client.get_collection("document2_embedded_data")
-        
         # Generate embeddings
-        embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
         query_vector = embedding_model.encode(query)
-        
-        # Query ChromaDB
-        results = collection.query(
-            query_embeddings=[query_vector],
-            n_results=5,
-            include=["documents", "metadatas"]
+        if hasattr(query_vector, "tolist"):
+            query_vector = query_vector.tolist()
+        pinecone_response = document_index.query(
+            top_k=1,
+            include_values=True,
+            include_metadata=True,
+            vector=query_vector,
+            filter={"document_type": "PI"}  # Example filter, adjust as needed
         )
+
+        print(f"Query Response: {pinecone_response}", file=sys.stderr)
         
-        # Process results
-        response = {"filter": "1=1", "contexts": []}  # Default safe filter
-        if results.get("documents"):
-            documents_list = results["documents"]
-            metadatas_list = results.get("metadatas", [])
-
-            for docs, metas in zip(documents_list, metadatas_list):
-                for doc, meta in zip(docs, metas):
-                    response["contexts"].append({
-                        "document": doc,
-                        "metadata": meta
-                    })
-
-            # update filter if one is present in the first metadata
-            if metadatas_list and metadatas_list[0] and isinstance(metadatas_list[0][0], dict):
-                response["filter"] = metadatas_list[0][0].get("filter", "1=1")
-
+        response = parse_pinecone_response(pinecone_response)
+        print(f"Parsed Response: {response}", file=sys.stderr)
         return response
         
-        
+    
     except Exception as e:
         print(f"Error: {str(e)}", file=sys.stderr)
         return format_response(str(e), "error")
 
 
-@mcp.tool(name="document3", description="Get structured data from ChromaDB")
-def document3(query: str) -> Dict[str, Any]:
+
+@mcp.tool(name="hpl", description="Get structured data from ChromaDB")
+def document1(query: str) -> Dict[str, Any]:
     """Get structured data from ChromaDB"""
 
     try:
-        # Initialize ChromaDB
-        client = chromadb.PersistentClient(path='chroma_db3')
-        collection = client.get_collection("document3_embedded_data")
-        
         # Generate embeddings
-        embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
         query_vector = embedding_model.encode(query)
-        
-        # Query ChromaDB
-        results = collection.query(
-            query_embeddings=[query_vector],
-            n_results=5,
-            include=["documents", "metadatas"]
+        if hasattr(query_vector, "tolist"):
+            query_vector = query_vector.tolist()
+        pinecone_response = document_index.query(
+            top_k=1,
+            include_values=True,
+            include_metadata=True,
+            vector=query_vector,
+            filter={"document_type": "hpl"}  # Example filter, adjust as needed
         )
+
+        print(f"Query Response: {pinecone_response}", file=sys.stderr)
         
-        # Process results
-        response = {"filter": "1=1", "contexts": []}
-        if results.get("documents"):
-            documents_list = results["documents"]
-            metadatas_list = results.get("metadatas", [])
-
-            for docs, metas in zip(documents_list, metadatas_list):
-                for doc, meta in zip(docs, metas):
-                    response["contexts"].append({
-                        "document": doc,
-                        "metadata": meta
-                    })
-
-            # update filter if one is present in the first metadata
-            if metadatas_list and metadatas_list[0] and isinstance(metadatas_list[0][0], dict):
-                response["filter"] = metadatas_list[0][0].get("filter", "1=1")
-
+        response = parse_pinecone_response(pinecone_response)
+        print(f"Parsed Response: {response}", file=sys.stderr)
         return response
         
-        
+    
     except Exception as e:
         print(f"Error: {str(e)}", file=sys.stderr)
         return format_response(str(e), "error")
+    
 
 if __name__ == "__main__":
     import asyncio
