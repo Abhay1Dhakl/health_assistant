@@ -32,6 +32,7 @@ def get_embedding_data(text):
     return embedding.tolist()
 
 async def store_document(data, text_content):
+    print("text_content:", text_content)
     doc_id = str(uuid.uuid4())
     # Mock database write
     print(f"Content Length: {len(text_content)}")
