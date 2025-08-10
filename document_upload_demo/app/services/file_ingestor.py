@@ -21,7 +21,8 @@ def split_text_into_chunks(text, chunk_size=500):
 
     if current_chunk:
         chunks.append(" ".join(current_chunk))
-
+        
+    print(f"Total chunks created: {len(chunks)}")
     return chunks
 
 async def ingest_from_file(data, file):
@@ -45,14 +46,14 @@ async def ingest_from_file(data, file):
             chunks = split_text_into_chunks(text)
 
             # Store each chunk with metadata
-            for i, chunk in enumerate(chunks):
-                chunk_metadata = {
-                    "chunk_index": i,
+            chunk_metadata_with_data = {
+                    **data,
                     "file_name": file.filename,
                     "mime_type": mime_type,
-                    "source_metadata": metadata
+                    "source_metadata": metadata,
+                    "chunks": [{"chunk_index": i, "text": chunk} for i, chunk in enumerate(chunks)]
                 }
-                await store_document(chunk_metadata, chunk)
+            await store_document(chunk_metadata_with_data, None)
 
             return {"status": "success", "chunks_stored": len(chunks)}
         except Exception as e:

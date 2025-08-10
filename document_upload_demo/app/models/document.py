@@ -31,12 +31,16 @@ def get_embedding_data(text):
     embedding = model.encode(text, convert_to_tensor=True)
     return embedding.tolist()
 
-async def store_document(data, text_content):
+async def store_document(data, text_content = None):
     print("text_content:", text_content)
+    print("data:", data)
+    
+    chunks = data.get("chuncks", [])
+    combined_text = " ".join(chunk["text"] for chunk in chunks)
     doc_id = str(uuid.uuid4())
     # Mock database write
-    print(f"Content Length: {len(text_content)}")
-    embedding = get_embedding_data(text_content)
+    print(f"Content Length: {len(combined_text)}")
+    embedding = get_embedding_data(combined_text)
     metadata = {
         "instance_id": data.get("instance_id"),
         "document_type": data.get("document_type"),
@@ -47,7 +51,10 @@ async def store_document(data, text_content):
         "region": data.get("document_metadata", {}).get("region"),
         "author": data.get("document_metadata", {}).get("author"),
         "tags": data.get("document_metadata", {}).get("tags"),
-        "ingested_at": datetime.utcnow().isoformat()
+        "ingested_at": datetime.utcnow().isoformat(),
+        "file_name": data.get("file_name"),
+        "mime_type": data.get("mime_type"),
+        "source_metadata": data.get("source_metadata", {})
     }
     # Upsert into Pinecone
     pc.Index(index_name).upsert([
