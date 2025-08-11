@@ -97,7 +97,10 @@ async def query_mcp(user_query: str) -> str:
 
         # System prompt - clear instruction 
         system_prompt = f"""
-            Dont change anything that you receive from the user, just add the referece after every line that you are getting from the document.
+            When you output extracted text, you MUST use the exact `page` and `chunk_id` from the metadata in the MCP response. 
+Format citations as: (Source: source, Page page, Chunk chunk_id). 
+If metadata is missing, explicitly say: 'Page unknown' or 'Chunk unknown' — never omit the citation.
+
             Available Tools and Documents:
             - PI: Azithromycin information from StatPearls/NCBI (comprehensive drug information, mechanisms, clinical uses)
             - LRD: Azithromycin clinical data and research findings  

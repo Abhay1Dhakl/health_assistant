@@ -40,25 +40,45 @@ async def ingest_from_file(data, file):
         try:
             pdf_file = io.BytesIO(content)
             reader = PdfReader(pdf_file)
-            text = "\n".join(page.extract_text() for page in reader.pages if page.extract_text())
-            metadata = [{"page": i, "text": page.extract_text()} for i, page in enumerate(reader.pages) if page.extract_text()]
-                # Split text into chunks
-            chunks = split_text_into_chunks(text)
 
-            # Store each chunk with metadata
+            metadata = []
+            chunks = []
+
+            for i, page in enumerate(reader.pages):
+                page_text = page.extract_text()
+                if not page_text:
+                    continue
+
+                # Add page metadata
+                metadata.append({"page": i+1, "text": page_text})
+
+                # Split this page into chunks
+                page_chunks = split_text_into_chunks(page_text)
+
+                # Store chunk with page reference
+                for chunk_index, chunk in enumerate(page_chunks):
+                    chunks.append({
+                        "page": i+1,
+                        "chunk_index": chunk_index,
+                        "text": chunk
+                    })
+
             chunk_metadata_with_data = {
-                    **data,
-                    "file_name": file.filename,
-                    "mime_type": mime_type,
-                    "source_metadata": metadata,
-                    "chunks": [{"chunk_index": i, "text": chunk} for i, chunk in enumerate(chunks)]
-                }
+                **data,
+                "file_name": file.filename,
+                "mime_type": mime_type,
+                "source_metadata": metadata,   # full page texts
+                "chunks": chunks               # chunks with page numbers
+            }
+
             await store_document(chunk_metadata_with_data, None)
 
             return {"status": "success", "chunks_stored": len(chunks)}
+
         except Exception as e:
             print(f"Error reading PDF: {e}")
             text = "[PDF content could not be extracted]"
+
     elif mime_type == "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
         try:
             doc = Document(io.BytesIO(content))

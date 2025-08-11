@@ -3,3 +3,6 @@ uvicorn
 httpx
 python-multipart
 pydantic
+PyPDF2
+python-docx
+exceptions
