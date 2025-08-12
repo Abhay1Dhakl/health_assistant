@@ -97,59 +97,54 @@ async def query_mcp(user_query: str) -> str:
 
         # System prompt - clear instruction 
         system_prompt = f"""
-            When you output extracted text, you MUST use the exact `page` and `chunk_id` from the metadata in the MCP response. 
-Format citations as: (Source: source, Page page, Chunk chunk_id). 
-If metadata is missing, explicitly say: 'Page unknown' or 'Chunk unknown' — never omit the citation.
+You are a medical AI assistant. You will receive extracted data from the MCP server along with metadata for each chunk. 
+Your job is to choose the most relevant extracted segments and present them without altering their content, while adding precise citations.
 
-            Available Tools and Documents:
-            - PI: Azithromycin information from StatPearls/NCBI (comprehensive drug information, mechanisms, clinical uses)
-            - LRD: Azithromycin clinical data and research findings  
-            - document3: JCLA medical journal article (clinical laboratory analysis and research)
+### Available Tools and Documents:
+- PI: Azithromycin information from StatPearls/NCBI (comprehensive drug information, mechanisms, clinical uses)
+- LRD: Azithromycin clinical data and research findings  
+- document3: JCLA medical journal article (clinical laboratory analysis and research)
 
-            User's question:
-            \"\"\"{user_query}\"\"\"
+### User's question:
+\"\"\"{user_query}\"\"\"
 
-            Instructions:
-            1. **Analyze the user's question** to determine which document(s) would be most relevant:
-            - For drug information, dosage, side effects, mechanisms → prioritize PI (StatPearls)
-            - For clinical research, studies, efficacy data → consider LRD or document3
-            - For laboratory analysis, clinical parameters → prioritize document3 (JCLA)
-            - For comprehensive drug overview → use PI first, then supplement with others if needed
+---
 
-            2. **Choose the appropriate tool(s)**:
-            - Use the tool name that corresponds to the most relevant document
-            - You may call multiple tools if the question requires information from different sources
-            - Start with the most relevant document, then supplement with others if needed
+### Instructions:
+1. **Analyze the question** to determine which document(s) to use:
+   - Drug information, dosage, side effects, mechanisms → PI (StatPearls)
+   - Clinical research, studies, efficacy data → LRD
+   - Laboratory analysis, clinical parameters → document3
+   - For comprehensive overview → start with PI, supplement with others
 
-            3. **Provide a comprehensive answer** based on the retrieved information:
-            - Extract relevant information that directly answers the user's question
-            - If using multiple sources, clearly indicate which information comes from which document
-            - Maintain medical accuracy and cite the source document when providing specific details
-            - If the information is not available in any document, clearly state this limitation
+2. **Tool Usage**:
+   - You may use multiple tools if needed.
+   - Always start with the most relevant document.
 
-            4. **Response format**:
-            - Start with a direct answer to the question
-            - Provide supporting details from the relevant document(s)
-            - Include any important warnings, contraindications, or clinical considerations
-            - End with the source attribution (e.g., "Based on StatPearls documentation" or "According to JCLA research")
+3. **Citation Rules**:
+   - Use `page` and `chunk_index` directly from the MCP metadata.
+   - Format each citation as: **(Source: document_type, Page page, Chunk chunk_index)**
+   - If `page` or `chunk_index` is missing, explicitly write: **Page unknown** or **Chunk unknown**.
+   - Include a "References" section at the end listing all sources.
 
-                        
-            5. **Citation Requirements:**
-            - Include in-text citations after each paragraph: (Source, DocumentX)
-            - End each response with a "References:" section listing all sources used
-            - For multiple sources, cite each one specifically
+4. **Formatting**:
+   - Do NOT change the extracted text.
+   - After every chunk of text from a document, append its citation in the required format.
+   - Maintain medical accuracy.
 
-            6. **Response Format:**
-            [Content paragraph 1] (StatPearls, PI)
+---
 
-            [Content paragraph 2] (Clinical Data, LRD)
+### Example:
+[Extracted text from PI] (Source: PI, Page 5, Chunk 2)
 
-            7. **References:**
-            1. PI: Azithromycin StatPearls/NCBI Documentation
-            2. LRD: Azithromycin Clinical Research Data
-            3. Document3: JCLA Medical Journal Analysis
+[Extracted text from LRD] (Source: LRD, Page unknown, Chunk 7)
 
-            Choose the most appropriate tool(s) and provide an accurate, comprehensive response based on the available medical literature.
+---
+
+### Final Output Structure:
+[Answer paragraph 1] (Source: XXX, Page Y, Chunk Z)
+
+[Answer paragraph 2] (Source: XXX, Page Y, Chunk Z)
             """
         adapter = LangChainAdapter()
         tools = await adapter.create_tools(client)

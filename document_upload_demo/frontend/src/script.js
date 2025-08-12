@@ -51,8 +51,8 @@ document.getElementById("ingestion-form").addEventListener("submit", async funct
       body: formData
     });
     const result = await res.json();
-    document.getElementById("message").textContent = "✅ Success: " + JSON.stringify(result);
+    document.getElementById("message").textContent = " Success: " + JSON.stringify(result);
   } catch (err) {
-    document.getElementById("message").textContent = "❌ Error: " + err.message;
+    document.getElementById("message").textContent = " Error: " + err.message;
   }
 });

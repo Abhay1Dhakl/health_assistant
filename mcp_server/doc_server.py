@@ -101,7 +101,7 @@ def document1(query: str) -> Dict[str, Any]:
         if hasattr(query_vector, "tolist"):
             query_vector = query_vector.tolist()
         pinecone_response = document_index.query(
-            top_k=5,
+            top_k=10,
             include_values=True,
             include_metadata=True,
             vector=query_vector,
